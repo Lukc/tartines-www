@@ -1,4 +1,6 @@
 
+@import url("monokai.css");
+
 * {
 	margin: 0;
 	padding: 0;
@@ -84,9 +86,17 @@ html, body {
 	height: 100px;
 }
 
+/* Very small squares */
+.square:nth-child(8), .square:nth-child(9) {
+	width: 70px;
+	height: 70px;
+	font-size: 16pt;
+}
+
 /* Opposite angle squares */
 .square:nth-child(1), .square:nth-child(4),
-.square:nth-child(6), .square:nth-child(7) {
+.square:nth-child(6), .square:nth-child(7),
+.square:nth-child(9) {
 	-ms-transform: rotate(-45deg);
 	-moz-transform: rotate(-45deg);
 	-webkit-transform: rotate(-45deg);
@@ -141,33 +151,56 @@ html, body {
 	top: 425px;
 	right: 195px;
 
-	border-color: #999;
+	border-color: #A55;
 } .square:nth-child(5) a {
-	color: #999;
+	color: #A55;
 } .square:nth-child(5):hover {
-	background-color: #777;
+	background-color: #A55;
 }
 
 .square:nth-child(6) {
 	top: 395px;
 	right: 60px;
 
-	border-color: #DA5;
+	border-color: #DB5;
 } .square:nth-child(6) a {
-	color: #DA5;
+	color: #DB5;
 } .square:nth-child(6):hover {
-	background-color: #DA5;
+	background-color: #DB5;
 }
 
 .square:nth-child(7) {
 	top: 530px;
 	right: 100px;
 
-	border-color: #A55;
+	border-color: #B74;
 } .square:nth-child(7) a {
-	color: #A55;
+	color: #B74;
 } .square:nth-child(7):hover {
-	background-color: #A55;
+	background-color: #B74;
+}
+
+.square:nth-child(8) {
+	top: 245px;
+	right: 35px;
+
+	border-color: #F6A;
+} .square:nth-child(8) a {
+	color: #F6A;
+} .square:nth-child(8):hover {
+	background-color: #F6A;
+}
+
+.square:nth-child(9) {
+	top: 345px;
+	right: 295px;
+
+	/* That color is chocolate™. */
+	border-color: #755331;
+} .square:nth-child(9) a {
+	color: #755331;
+} .square:nth-child(9):hover {
+	background-color: #755331;
 }
 
 /* Actual body/content style */
@@ -185,6 +218,10 @@ html, body {
 	font-size: 22pt;
 } #content h1 {
 	font-size: 46pt;
+	padding: 0 50px;
+} #content h2 {
+	font-size: 32pt;
+	padding: 0 50px;
 } #content p {
 	margin: 20px;
 }

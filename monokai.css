@@ -1,0 +1,21 @@
+
+h1, h2, h3, h4, h5, h6 {
+	color: #FFF;
+}
+
+#content {
+	background-color: #272822;
+	background-image: url("debut_dark/debut_dark.png");
+	color: #F8F8F2;
+}
+
+#content em {
+	color: #66CCB3;
+} #content strong {
+	color: #7FB347;
+}
+
+#content a {
+	color: #D9E577;
+}
+

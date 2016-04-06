@@ -2,5 +2,5 @@
 Tartines
 ========
 
-running since <span id="trueCounter">very many</span> days ago
+running since <em id="trueCounter">very many</em> days ago
 
