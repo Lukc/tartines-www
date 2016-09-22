@@ -1,6 +1,7 @@
-#!/bin/sh
+#!/usr/bin/env zsh
 
-MD=./md2html.awk
+MD=pandoc
+MD_OPTS=(-f markdown -t html)
 
 for page in *.md; do
 	page="$(echo "$page" | sed "s|\\.md$||")"
@@ -20,7 +21,7 @@ for page in *.md; do
 
 		cat header.post.xhtml
 
-		$MD $page.md
+		$MD "${MD_OPTS[@]}" $page.md
 		cat footer.xhtml
 	} > $page.xhtml
 done
