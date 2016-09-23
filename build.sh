@@ -30,6 +30,8 @@ for page in *.md; do
 
 	if [[ "$page" != index ]]; then
 		local_opts+=(-M menu -M content)
+	else
+		local_opts+=(-M index)
 	fi
 
 	#echo "${MD_OPTS[@]} ${local_opts[@]}"
