@@ -9,6 +9,6 @@ enthusiasts who dream to change the world through example and education.
 
 We are open-minded people who dedicate our lives to science and culture.
 
-We believe in free software, democracy and decentralization. And probably many
+We believe in libre software, democracy and decentralization. And probably many
 other things!
 
