@@ -2,7 +2,7 @@
 The Rules of Tartines
 =====================
 
-  0.
+  1.
 
     ### If you try to have fun, you might become productive!
 
