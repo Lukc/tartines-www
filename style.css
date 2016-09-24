@@ -20,52 +20,17 @@ body {
 }
 
 html, body {
-	/*height: 100%;*/
 }
 
 #menu {
 	text-align: right;
 
 	position: fixed;
+	top: 25px;
 	right: 65%;
 
 	min-height: 670px;
 	height: 100%;
-
-	padding-top: 10%;
-	padding-left:  50px;
-	padding-right: 50px;
-} #menu li {
-	list-style-type: none;
-	font-size: 42pt;
-	margin: 8px;
-	margin-right: 20px;
-} #menu li a {
-	color: #CCC;
-} #menu li:nth-child(1) a {
-	color: #F77;
-} #menu li:nth-child(2) a {
-} #menu li:nth-child(3) a {
-} #menu li:nth-child(4) a {
-} #menu li:nth-child(5) a {
-} #menu li:nth-child(6) a {
-} #menu li:nth-child(7) a {
-} #menu li:nth-child(8) a {
-} #menu li:nth-child(9) a {
-} #menu li a:hover {
-	color: #FFF;
-	text-shadow:
-		0 0  5px #000,
-		0 0 15px #000;
-}
-
-#index {
-	position: relative;
-	width: 665px;
-	height: 420px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 10px;
 }
 
 #content {
@@ -73,16 +38,12 @@ html, body {
 
 	text-align: left;
 
-	border-left: 7px solid #444;
-
 	padding-left: 40px;
 
 	min-height: 100vh;
-
-	background-color: #EEE;
 }
 
-.square {
+#menu li {
 	width: 135px;
 	height: 135px;
 	border: 4px solid #CCC;
@@ -102,36 +63,36 @@ html, body {
 	font-size: 24pt;
 }
 
-.square a {
+#menu li a {
 	display: block;
 	width: 100%;
 	height: 100%;
 	text-shadow: 0 0 3px #000;
-} .square:hover a {
+} #menu li:hover a {
 	color: #FFF!important;
 	text-shadow: 0 0 8px #000;
-} .square:hover {
+} #menu li:hover {
 	border-color: #FFF!important;
 }
 
 /* Small squares */
-.square:nth-child(1), .square:nth-child(3),
-.square:nth-child(6), .square:nth-child(7) {
+#menu li:nth-child(1), #menu li:nth-child(3),
+#menu li:nth-child(6), #menu li:nth-child(7) {
 	width: 100px;
 	height: 100px;
 }
 
 /* Very small squares */
-.square:nth-child(8), .square:nth-child(9) {
+#menu li:nth-child(8), #menu li:nth-child(9) {
 	width: 70px;
 	height: 70px;
 	font-size: 16pt;
 }
 
 /* Opposite angle squares */
-.square:nth-child(1), .square:nth-child(4),
-.square:nth-child(6), .square:nth-child(7),
-.square:nth-child(9) {
+#menu li:nth-child(1), #menu li:nth-child(4),
+#menu li:nth-child(6), #menu li:nth-child(7),
+#menu li:nth-child(9) {
 	-ms-transform: rotate(-45deg);
 	-moz-transform: rotate(-45deg);
 	-webkit-transform: rotate(-45deg);
@@ -139,140 +100,133 @@ html, body {
 }
 
 /* blue */
-.square:nth-child(1) {
-	left: 30px;
-	top: 200px;
+#menu li:nth-child(1) {
+	top: 30px;
+	right: 200px;
 
 	border-color: #5BF;
-} .square:nth-child(1) a {
+} #menu li:nth-child(1) a {
 	color: #5BF;
-} .square:nth-child(1):hover {
+} #menu li:nth-child(1):hover {
 	background-color: #5BF;
 }
 
 /* purple */
-.square:nth-child(2) {
-	left: 100px;
-	top: 70px;
+#menu li:nth-child(2) {
+	top: 100px;
+	right: 70px;
 
 	border-color: #A5D;
-} .square:nth-child(2) a {
+} #menu li:nth-child(2) a {
 	color: #A5D;
-} .square:nth-child(2):hover {
+} #menu li:nth-child(2):hover {
 	background-color: #A5D;
 }
 
 /* cyan */
-.square:nth-child(3) {
-	left: 170px;
-	top: 235px;
+#menu li:nth-child(3) {
+	top: 170px;
+	right: 235px;
 
 	border-color: #5AA;
-} .square:nth-child(3) a {
+} #menu li:nth-child(3) a {
 	color: #5AA;
-} .square:nth-child(3):hover {
+} #menu li:nth-child(3):hover {
 	background-color: #5AA;
 }
 
 /* green */
-.square:nth-child(4) {
-	left: 265px;
-	top: 130px;
+#menu li:nth-child(4) {
+	top: 265px;
+	right: 130px;
 
 	border-color: #AB5;
-} .square:nth-child(4) a {
+} #menu li:nth-child(4) a {
 	color: #AB5;
-} .square:nth-child(4):hover {
+} #menu li:nth-child(4):hover {
 	background-color: #AB5;
 }
 
 /* red */
-.square:nth-child(5) {
-	left: 425px;
-	top: 195px;
+#menu li:nth-child(5) {
+	top: 425px;
+	right: 195px;
 
 	border-color: #B55;
-} .square:nth-child(5) a {
+} #menu li:nth-child(5) a {
 	color: #B55;
-} .square:nth-child(5):hover {
+} #menu li:nth-child(5):hover {
 	background-color: #B55;
 }
 
 /* yellow */
-.square:nth-child(6) {
-	left: 395px;
-	top: 60px;
+#menu li:nth-child(6) {
+	top: 395px;
+	right: 60px;
 
 	border-color: #DB5;
-} .square:nth-child(6) a {
+} #menu li:nth-child(6) a {
 	color: #DB5;
-} .square:nth-child(6):hover {
+} #menu li:nth-child(6):hover {
 	background-color: #DB5;
 }
 
 /* orange */
-.square:nth-child(7) {
-	left: 530px;
-	top: 100px;
+#menu li:nth-child(7) {
+	top: 530px;
+	right: 100px;
 
 	border-color: #C74;
-} .square:nth-child(7) a {
+} #menu li:nth-child(7) a {
 	color: #C74;
-} .square:nth-child(7):hover {
+} #menu li:nth-child(7):hover {
 	background-color: #C74;
 }
 
 /* black */
-.square:nth-child(8) {
-	left: 245px;
-	top: 35px;
+#menu li:nth-child(8) {
+	top: 245px;
+	right: 35px;
 
 	border-color: #555;
-} .square:nth-child(8) a {
+} #menu li:nth-child(8) a {
 	color: #555;
-} .square:nth-child(8):hover {
+} #menu li:nth-child(8):hover {
 	background-color: #555;
 }
 
 /* white */
-.square:nth-child(9) {
-	left: 345px;
-	top: 295px;
+#menu li:nth-child(9) {
+	top: 345px;
+	right: 295px;
 
 	border-color: #AAA;
-} .square:nth-child(9) a {
+} #menu li:nth-child(9) a {
 	color: #AAA;
-} .square:nth-child(9):hover {
+} #menu li:nth-child(9):hover {
 	background-color: #AAA;
 }
 
 /* Actual body/content style */
 
-#container {
-	font-size: 20pt;
-	color: #EEE;
-}
-
-#container h1:first-child {
+#content h1:first-child {
 	padding-top: 100px;
 	border-bottom: 1px solid #888;
-	font-size: 64pt;
-	margin-bottom: 40px;
-} #content h1:first-child {
-	margin-bottom: 80px;
+	margin-bottom: 20px;
+	margin-right: 80px;
+
+	font-size: 48pt;
 }
 
 #content {
-	font-size: 20pt;
-
-	padding-right: 40px;
+	font-size: 22pt;
 } #content h1 {
 	font-size: 46pt;
 	padding: 0 50px;
 } #content h2 {
-	font-size: 36pt;
+	font-size: 32pt;
 	padding: 0 50px;
-} #container p, #content p {
+} #content p {
 	margin: 20px;
 }
 
@@ -280,7 +234,7 @@ html, body {
 	margin-left: 80px;
 	margin-right: 20px;
 } #content li {
-	margin-bottom: 12px;
+	margin-bottom: 6px;
 	margin-top: 6px;
 }
 

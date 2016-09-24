@@ -6,35 +6,11 @@ MD_OPTS=(-f markdown -t html --template=template.xhtml)
 for page in *.md; do
 	page="$(echo "$page" | sed "s|\\.md$||")"
 	echo " :: $page.xhtml"
-	#{
-	#	cat header.xhtml
-
-	#	[ -f "$page.js" ] && {
-	#		echo "<script>"
-	#		echo "// <![CDATA["
-
-	#		cat "$page.js"
-
-	#		echo "// ]]>"
-	#		echo "</script>"
-	#	}
-
-	#	cat header.post.xhtml
-
-	#	$MD "${MD_OPTS[@]}" $page.md
-	#	cat footer.xhtml
-	#} > $page.xhtml
 
 	typeset -la local_opts
 	local_opts=()
 
-	if [[ "$page" != index ]]; then
-		local_opts+=(-M menu -M content)
-	else
-		local_opts+=(-M index)
-	fi
-
-	#echo "${MD_OPTS[@]} ${local_opts[@]}"
+	local_opts+=(-M menu -M content)
 	pandoc "${MD_OPTS[@]}" "${local_opts[@]}" $page.md -o $page.xhtml
 done
 
