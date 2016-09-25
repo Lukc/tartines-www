@@ -1,6 +1,6 @@
 
-The Rules of Tartines
-=====================
+Tartines’ philosophy
+====================
 
   1.
 

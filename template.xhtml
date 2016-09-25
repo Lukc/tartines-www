@@ -57,8 +57,8 @@
 				</li>
 
 				<li>
-					<a href="rules.xhtml">
-						Rules
+					<a href="rules.xhtml" style="font-size:220%;">
+						φ
 					</a>
 				</li>
 
@@ -73,15 +73,22 @@
 			$include-before$
 			$endfor$
 
-			$if(toc)$
-			<div id="$idprefix$TOC">
-			$toc$
-			</div>
-			$endif$
-
 			$if(content)$
 			<div id="content">
 			$endif$
+
+				$if(title)$
+				<h1 id="$idprefix$">$title$</h1>
+				$endif$
+
+				$if(toc)$
+				$if(show-toc)$
+				<div id="$idprefix$TOC">
+					<h3>Table of contents:</h3>
+				$toc$
+				</div>
+				$endif$
+				$endif$
 
 				$body$
 

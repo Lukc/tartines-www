@@ -8,7 +8,9 @@ for page in *.md; do
 	echo " :: $page.xhtml"
 
 	typeset -la local_opts
-	local_opts=()
+	local_opts=(--toc)
+
+	[[ "$page" == index ]] && local_opts+=(-M index)
 
 	local_opts+=(-M menu -M content)
 	pandoc "${MD_OPTS[@]}" "${local_opts[@]}" $page.md -o $page.xhtml
