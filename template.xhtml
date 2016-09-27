@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="style.css" title="Default style"?>
+<?xml-stylesheet href="$root$style.css" title="Default style"?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" $if(lang)$ xml:lang="$lang$" $else$ lang="en" $endif$>
 	<head>
@@ -15,49 +15,49 @@
 			$if(menu)$
 			<ul id="menu">
 				<li>
-					<a href="index.xhtml">
+					<a href="$root$index.xhtml">
 						Index
 					</a>
 				</li>
 
 				<li>
-					<a href="texts.xhtml">
+					<a href="$root$texts.xhtml">
 						Texts
 					</a>
 				</li>
 
 				<li>
-					<a href="todo.xhtml">
+					<a href="$root$todo.xhtml">
 						Todo
 					</a>
 				</li>
 
 				<li>
-					<a href="projects.xhtml">
+					<a href="$root$projects.xhtml">
 						Projects
 					</a>
 				</li>
 
 				<li>
-					<a href="jabber.xhtml">
+					<a href="$root$jabber.xhtml">
 						Jabber
 					</a>
 				</li>
 
 				<li>
-					<a href="news.xhtml">
+					<a href="$root$news.xhtml">
 						News
 					</a>
 				</li>
 
 				<li>
-					<a href="faq.xhtml">
+					<a href="$root$faq.xhtml">
 						FAQ
 					</a>
 				</li>
 
 				<li>
-					<a href="rules.xhtml" style="font-size:220%;">
+					<a href="$root$rules.xhtml" style="font-size:220%;">
 						φ
 					</a>
 				</li>
@@ -81,10 +81,18 @@
 				<h1 id="$idprefix$">$title$</h1>
 				$endif$
 
+				$if(date)$
+				<h3 id="date">$date$</h3>
+				$endif$
+
 				$if(toc)$
 				$if(show-toc)$
 				<div id="$idprefix$TOC">
+					$if(toc-title)$
+					<h3>$toc-title$</h3>
+					$else$
 					<h3>Table of contents:</h3>
+					$endif$
 				$toc$
 				</div>
 				$endif$

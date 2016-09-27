@@ -1,5 +1,5 @@
 
-@import url("https://fontlibrary.org/face/gidole-regular");
+@import url("https://fontlibrary.org/face/orkney");
 
 * {
 	margin: 0;
@@ -11,7 +11,7 @@
 }
 
 body {
-	font-family: GidoleRegular, Sans-Serif;
+	font-family: Orkney, Sans-Serif;
 	font-size: 13pt;
 
 	text-align: center;
@@ -44,6 +44,8 @@ html, body {
 
 	min-height: 100vh;
 	max-width: 1024px;
+
+	padding-bottom: 80px;
 }
 
 #menu li {
@@ -227,6 +229,18 @@ html, body {
 	margin-bottom: 20px;
 
 	font-size: 48pt;
+} #content h3#date {
+	margin-top: -10px;
+	text-align: right;
+}
+
+#content ul {
+	margin-left: 40px;
+	margin-right: 40px;
+} #content li {
+	margin-bottom: 6px;
+	margin-top: 6px;
+	margin-left: 36px;
 }
 
 #content {
@@ -234,19 +248,36 @@ html, body {
 } #content h1 {
 	font-size: 46pt;
 	padding: 0 50px;
+	margin-left: 40px;
+	margin-right: 40px;
 } #content h2 {
-	font-size: 32pt;
+	font-size: 34pt;
 	padding: 0 50px;
+	margin-top: 32px;
+	margin-left: 32px;
+	margin-right: 32px;
+} #content h3 {
+	font-size: 30pt;
+	padding: 0 50px;
+	margin-top: 24px;
+	margin-left: 24px;
+	margin-right: 24px;
+} #content h4 {
+	font-size: 26pt;
+	padding: 0 50px;
+	margin-top: 16px;
+	margin-left: 16px;
+	margin-right: 16px;
 } #content p {
 	margin: 20px;
-}
-
-#content ul, #content ol {
+} #content > table, #content > ul, #TOC > ul, #content > ol {
+	margin-right: 80px;
 	margin-left: 80px;
-	margin-right: 20px;
-} #content li {
-	margin-bottom: 6px;
-	margin-top: 6px;
+	width: 100%;
+} #content table td {
+	padding: 3px 6px;
+} #content hr {
+	margin: 10px;
 }
 
 #content em {
@@ -259,9 +290,5 @@ html, body {
 	color: #97A335;
 
 	text-decoration: underline;
-}
-
-#TOC {
-	margin: 40px;
 }
 
