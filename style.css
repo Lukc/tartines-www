@@ -1,5 +1,5 @@
 
-@import url("monokai.css");
+@import url("https://fontlibrary.org/face/gidole-regular");
 
 * {
 	margin: 0;
@@ -11,16 +11,17 @@
 }
 
 body {
-	font-family: Sans-Serif;
+	font-family: GidoleRegular, Sans-Serif;
 	font-size: 13pt;
 
 	text-align: center;
 
-	background: #333 url("binding_dark/binding_dark.png");
+	/*background: #333 url("binding_dark/binding_dark.png");*/
+	background: #FFF;
+	color: #000;
 }
 
 html, body {
-	/*height: 100%;*/
 }
 
 #menu {
@@ -39,19 +40,15 @@ html, body {
 
 	text-align: left;
 
-	border-left: 7px solid #444;
-
 	padding-left: 40px;
 
 	min-height: 100vh;
-
-	background-color: #EEE;
+	max-width: 1024px;
 }
 
-.square {
+#menu li {
 	width: 135px;
 	height: 135px;
-	border: 4px solid #CCC;
 	display: inline-block;
 
 	text-align: center;
@@ -68,139 +65,158 @@ html, body {
 	font-size: 24pt;
 }
 
-.square a {
+#menu li a {
 	display: block;
 	width: 100%;
 	height: 100%;
-} .square:hover a {
-	color: #FFF!important;
-	text-shadow: 0 0 8px #000;
-} .square:hover {
+	color: rgba(0, 0, 0, 0.7);
+	/*text-shadow: 0 0 2px #000;*/
+	/*box-shadow: inset 0 0 1px #000;*/
+} #menu li:hover a {
+} #menu li:hover {
 	border-color: #FFF!important;
 }
 
 /* Small squares */
-.square:nth-child(1), .square:nth-child(3),
-.square:nth-child(6), .square:nth-child(7) {
+#menu li:nth-child(1), #menu li:nth-child(3),
+#menu li:nth-child(6), #menu li:nth-child(7) {
 	width: 100px;
 	height: 100px;
 }
 
 /* Very small squares */
-.square:nth-child(8), .square:nth-child(9) {
+#menu li:nth-child(8), #menu li:nth-child(9) {
 	width: 70px;
 	height: 70px;
 	font-size: 16pt;
 }
 
 /* Opposite angle squares */
-.square:nth-child(1), .square:nth-child(4),
-.square:nth-child(6), .square:nth-child(7),
-.square:nth-child(9) {
+#menu li:nth-child(1), #menu li:nth-child(4),
+#menu li:nth-child(6), #menu li:nth-child(7),
+#menu li:nth-child(9) {
 	-ms-transform: rotate(-45deg);
 	-moz-transform: rotate(-45deg);
 	-webkit-transform: rotate(-45deg);
 	-o-transform: rotate(-45deg);
 }
 
-.square:nth-child(1) {
+/* Shadows */
+#menu li {
+	box-shadow: 1px 1px 3px #666;
+}
+#menu li:nth-child(1), #menu li:nth-child(4),
+#menu li:nth-child(6), #menu li:nth-child(7),
+#menu li:nth-child(9) {
+	box-shadow: -1px 1px 3px #666;
+}
+
+#menu li:hover {
+	box-shadow: 1px 1px 3px #000;
+}
+#menu li:hover:nth-child(1), #menu li:hover:nth-child(4),
+#menu li:hover:nth-child(6), #menu li:hover:nth-child(7),
+#menu li:hover:nth-child(9) {
+	box-shadow: -1px 1px 3px #000;
+}
+
+/* blue */
+#menu li:nth-child(1) {
 	top: 30px;
 	right: 200px;
 
-	border-color: #5BF;
-} .square:nth-child(1) a {
-	color: #5BF;
-} .square:nth-child(1):hover {
+	background-color: #5BF;
+} #menu li:nth-child(1) a {
+} #menu li:nth-child(1):hover {
 	background-color: #5BF;
 }
 
-.square:nth-child(2) {
+/* purple */
+#menu li:nth-child(2) {
 	top: 100px;
 	right: 70px;
 
-	border-color: #A5D;
-} .square:nth-child(2) a {
-	color: #A5D;
-} .square:nth-child(2):hover {
-	background-color: #A5D;
+	background-color: #A7D;
+} #menu li:nth-child(2) a {
+} #menu li:nth-child(2):hover {
+	background-color: #A7D;
 }
 
-.square:nth-child(3) {
+/* cyan */
+#menu li:nth-child(3) {
 	top: 170px;
 	right: 235px;
 
-	border-color: #5AA;
-} .square:nth-child(3) a {
-	color: #5AA;
-} .square:nth-child(3):hover {
+	background-color: #5AA;
+} #menu li:nth-child(3) a {
+} #menu li:nth-child(3):hover {
 	background-color: #5AA;
 }
 
-.square:nth-child(4) {
+/* green */
+#menu li:nth-child(4) {
 	top: 265px;
 	right: 130px;
 
-	border-color: #AB5;
-} .square:nth-child(4) a {
-	color: #AB5;
-} .square:nth-child(4):hover {
+	background-color: #AB5;
+} #menu li:nth-child(4) a {
+} #menu li:nth-child(4):hover {
 	background-color: #AB5;
 }
 
-.square:nth-child(5) {
+/* red */
+#menu li:nth-child(5) {
 	top: 425px;
 	right: 195px;
 
-	border-color: #A55;
-} .square:nth-child(5) a {
-	color: #A55;
-} .square:nth-child(5):hover {
-	background-color: #A55;
+	background-color: #B55;
+} #menu li:nth-child(5) a {
+} #menu li:nth-child(5):hover {
+	background-color: #B55;
 }
 
-.square:nth-child(6) {
+/* yellow */
+#menu li:nth-child(6) {
 	top: 395px;
 	right: 60px;
 
-	border-color: #DB5;
-} .square:nth-child(6) a {
-	color: #DB5;
-} .square:nth-child(6):hover {
+	background-color: #DB5;
+} #menu li:nth-child(6) a {
+} #menu li:nth-child(6):hover {
 	background-color: #DB5;
 }
 
-.square:nth-child(7) {
+/* orange */
+#menu li:nth-child(7) {
 	top: 530px;
 	right: 100px;
 
-	border-color: #B74;
-} .square:nth-child(7) a {
-	color: #B74;
-} .square:nth-child(7):hover {
-	background-color: #B74;
+	background-color: #C74;
+} #menu li:nth-child(7) a {
+} #menu li:nth-child(7):hover {
+	background-color: #C74;
 }
 
-.square:nth-child(8) {
+/* grey */
+#menu li:nth-child(8) {
 	top: 245px;
 	right: 35px;
 
-	border-color: #F6A;
-} .square:nth-child(8) a {
-	color: #F6A;
-} .square:nth-child(8):hover {
-	background-color: #F6A;
+	background-color: #888;
+} #menu li:nth-child(8) a {
+} #menu li:nth-child(8):hover {
+	background-color: #888;
 }
 
-.square:nth-child(9) {
+/* white */
+#menu li:nth-child(9) {
 	top: 345px;
 	right: 295px;
 
-	/* That color is chocolate™. */
-	border-color: #755331;
-} .square:nth-child(9) a {
-	color: #755331;
-} .square:nth-child(9):hover {
-	background-color: #755331;
+	background-color: #AAA;
+} #menu li:nth-child(9) a {
+} #menu li:nth-child(9):hover {
+	background-color: #AAA;
 }
 
 /* Actual body/content style */
@@ -209,7 +225,6 @@ html, body {
 	padding-top: 100px;
 	border-bottom: 1px solid #888;
 	margin-bottom: 20px;
-	margin-right: 80px;
 
 	font-size: 48pt;
 }
@@ -232,5 +247,21 @@ html, body {
 } #content li {
 	margin-bottom: 6px;
 	margin-top: 6px;
+}
+
+#content em {
+	color: #268C73;
+} #content strong {
+	color: #5F9327;
+} #content a {
+	color: #778315;
+} #content a:hover {
+	color: #97A335;
+
+	text-decoration: underline;
+}
+
+#TOC {
+	margin: 40px;
 }
 

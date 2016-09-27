@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="style.css" title="Default style"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" $if(lang)$ xml:lang="$lang$" $else$ lang="en" $endif$>
+	<head>
+		<title>Tartines — $pagetitle$</title>
+
+		$if(index)$
+			<script type="application/javascript" src="index.js"/>
+		$endif$
+	</head>
+	<body>
+		<div id="container">
+
+			$if(menu)$
+			<ul id="menu">
+				<li>
+					<a href="index.xhtml">
+						Index
+					</a>
+				</li>
+
+				<li>
+					<a href="texts.xhtml">
+						Texts
+					</a>
+				</li>
+
+				<li>
+					<a href="todo.xhtml">
+						Todo
+					</a>
+				</li>
+
+				<li>
+					<a href="projects.xhtml">
+						Projects
+					</a>
+				</li>
+
+				<li>
+					<a href="jabber.xhtml">
+						Jabber
+					</a>
+				</li>
+
+				<li>
+					<a href="news.xhtml">
+						News
+					</a>
+				</li>
+
+				<li>
+					<a href="faq.xhtml">
+						FAQ
+					</a>
+				</li>
+
+				<li>
+					<a href="rules.xhtml" style="font-size:220%;">
+						φ
+					</a>
+				</li>
+
+				<li>
+					<a href="">
+					</a>
+				</li>
+			</ul>
+			$endif$
+
+			$for(include-before)$
+			$include-before$
+			$endfor$
+
+			$if(content)$
+			<div id="content">
+			$endif$
+
+				$if(title)$
+				<h1 id="$idprefix$">$title$</h1>
+				$endif$
+
+				$if(toc)$
+				$if(show-toc)$
+				<div id="$idprefix$TOC">
+					<h3>Table of contents:</h3>
+				$toc$
+				</div>
+				$endif$
+				$endif$
+
+				$body$
+
+			$if(content)$
+			</div>
+			$endif$
+
+			$for(include-after)$
+			$include-after$
+			$endfor$
+
+		</div>
+	</body>
+</html>

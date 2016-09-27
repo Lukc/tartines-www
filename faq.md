@@ -1,6 +1,7 @@
-
-Frequently Asked Questions
-==========================
+---
+title: Frequently Asked Questions
+show-toc: true
+...
 
 What does “Tartines” mean?
 --------------------------
@@ -17,17 +18,6 @@ Not everything needs a deep meaning.
 What is that Tartines Time Thing?
 ---------------------------------
 
-
-<pre>
-  XXXX.XXXX
-  |||| |||+- Seconds
-  |||| ||+-- Minutes
-  |||| |+--- Maximes
-  |||| +---- Hours
-  ||||
-  |||+------ Days
-  ||+------- Weeks
-  |+-------- Months
-  +--------- Year
-</pre>
+The Tartines Time is a variant of hexadecimal time in which day 0 is the
+creation of Tartines.
 
