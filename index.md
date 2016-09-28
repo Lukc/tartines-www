@@ -1,6 +1,7 @@
-
-Tartines
-========
+---
+title: Tartines
+index: true
+...
 
 running since <em id="trueCounter">very many</em> days ago
 

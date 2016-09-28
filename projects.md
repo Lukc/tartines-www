@@ -1,6 +1,4 @@
-
-Projects and Code
-=================
+% Projects and Code
 
 <a href="https://lukc.upyum.com/build.zsh">build.zsh</a>
 --------------------------------------------------------

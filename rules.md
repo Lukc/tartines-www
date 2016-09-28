@@ -1,6 +1,4 @@
-
-Tartines’ philosophy
-====================
+% Tartines’ philosophy
 
   1.
 

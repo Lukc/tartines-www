@@ -3,7 +3,11 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" $if(lang)$ xml:lang="$lang$" $else$ lang="en" $endif$>
 	<head>
+		$if(index)$
+		<title>$pagetitle$</title>
+		$else$
 		<title>Tartines — $pagetitle$</title>
+		$endif$
 
 		<script type="application/javascript" src="index.js"/>
 	</head>
