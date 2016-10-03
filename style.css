@@ -1,5 +1,6 @@
 
 @import url("https://fontlibrary.org/face/gidole-regular");
+@import url("https://fontlibrary.org/face/orkney");
 
 * {
 	margin: 0;
@@ -11,7 +12,7 @@
 }
 
 body {
-	font-family: GidoleRegular, Sans-Serif;
+	font-family: OrkneyRegular, GidoleRegular, Sans-Serif;
 	font-size: 13pt;
 
 	text-align: center;
@@ -35,6 +36,26 @@ html, body {
 	height: 100%;
 }
 
+#lang {
+	text-align: left;
+
+	margin-left: 35%;
+	padding-left: 40px;
+	margin-right: 30%;
+	margin-top: 10px;
+	margin-bottom: -40px;
+}
+#lang li {
+	display: inline-block;
+	list-style-type: none;
+	margin: 4px;
+} #lang li a {
+	padding: 4px; /* making links bigger! */
+	color: #5BF;
+} #lang li a:hover {
+	color: #A7D;
+}
+
 #content {
 	margin-left: 35%;
 
@@ -50,6 +71,7 @@ html, body {
 	width: 135px;
 	height: 135px;
 	display: inline-block;
+	overflow: hidden;
 
 	text-align: center;
 

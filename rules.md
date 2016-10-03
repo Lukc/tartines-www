@@ -7,7 +7,8 @@
     We are a friendly community. We’re here to make the world or ourselves
     better.
 
-    Try to respect and help each other!
+    If you try to do things that you find fun, you might be willing to spend
+    more time and effort into it and get better results!
 
   0.
 
@@ -48,7 +49,7 @@
 
   0.
 
-    ### Only a fool learns from his own mistakes. The wise man learns from the mistakes of others.
+    ### A fool only learns from his own mistakes. The wise man learns from the mistakes of others.
 
     Try to keep a history of what you do. If something goes wrong, people
     attempting to do the same thing in the future might be able to avoid
