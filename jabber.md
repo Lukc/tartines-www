@@ -1,6 +1,4 @@
-
-Multi User Chat
-===============
+% Multi User Chat
 
 Tartines’ members usually discuss through an online chat network called Jabber.
 

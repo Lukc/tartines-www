@@ -1,6 +1,4 @@
-
-Recent Events
-=============
+% Recent Events
 
 Creation of Tartines
 --------------------

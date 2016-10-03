@@ -1,6 +1,4 @@
-
-Things to do
-============
+% Things to do
 
   * Never-ending tasks
     * Fill that todo
