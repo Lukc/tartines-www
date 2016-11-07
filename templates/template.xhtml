@@ -58,13 +58,14 @@
 				</li>
 
 				<li>
-					<a href="$root$/rules.xhtml">
+					<a href="$root$/philosophy.xhtml">
 						φ
 					</a>
 				</li>
 
 				<li>
-					<a href="">
+					<a href="rules.xhtml">
+						Rules
 					</a>
 				</li>
 			</ul>
@@ -82,6 +83,9 @@
 				<h1 id="$idprefix$">$title$</h1>
 				$endif$
 
+				$if(version)$
+				<h3 id="version">Version $version$</h3>
+				$endif$
 				$if(date)$
 				<h3 id="date">$date$</h3>
 				$endif$

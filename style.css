@@ -13,7 +13,7 @@
 
 body {
 	font-family: OrkneyRegular, GidoleRegular, Sans-Serif;
-	font-size: 13pt;
+	font-size: 11pt;
 
 	text-align: center;
 
@@ -57,7 +57,7 @@ html, body {
 }
 
 #content {
-	margin-left: 35%;
+	margin-left: 32%;
 
 	text-align: left;
 
@@ -227,15 +227,140 @@ html, body {
 	background-color: #AAA;
 }
 
+@media (max-width: 550px) {
+	/* Small squares */
+	#menu li:nth-child(1), #menu li:nth-child(3),
+	#menu li:nth-child(6), #menu li:nth-child(7) {
+		width: 75px;
+		height: 75px;
+	}
+
+	/* Very small squares */
+	#menu li:nth-child(8), #menu li:nth-child(9) {
+		width: 50px;
+		height: 50px;
+		font-size: 16pt;
+	}
+
+	/* Shadows */
+	#menu li {
+		box-shadow: 1px 1px 3px #666;
+	} #menu li:hover {
+		box-shadow: 1px 1px 3px #000;
+	}
+
+	/* blue */
+	#menu li:nth-child(1) {
+		top: 30px;
+		right: 200px;
+
+		background-color: #5BF;
+	} #menu li:nth-child(1) a {
+	} #menu li:nth-child(1):hover {
+		background-color: #5BF;
+	}
+
+	/* purple */
+	#menu li:nth-child(2) {
+		top: 100px;
+		right: 70px;
+
+		background-color: #A7D;
+	} #menu li:nth-child(2) a {
+	} #menu li:nth-child(2):hover {
+		background-color: #A7D;
+	}
+
+	/* cyan */
+	#menu li:nth-child(3) {
+		top: 170px;
+		right: 235px;
+
+		background-color: #5AA;
+	} #menu li:nth-child(3) a {
+	} #menu li:nth-child(3):hover {
+		background-color: #5AA;
+	}
+
+	/* green */
+	#menu li:nth-child(4) {
+		top: 265px;
+		right: 130px;
+
+		background-color: #AB5;
+	} #menu li:nth-child(4) a {
+	} #menu li:nth-child(4):hover {
+		background-color: #AB5;
+	}
+
+	/* red */
+	#menu li:nth-child(5) {
+		top: 425px;
+		right: 195px;
+
+		background-color: #B55;
+	} #menu li:nth-child(5) a {
+	} #menu li:nth-child(5):hover {
+		background-color: #B55;
+	}
+
+	/* yellow */
+	#menu li:nth-child(6) {
+		top: 395px;
+		right: 60px;
+
+		background-color: #DB5;
+	} #menu li:nth-child(6) a {
+	} #menu li:nth-child(6):hover {
+		background-color: #DB5;
+	}
+
+	/* orange */
+	#menu li:nth-child(7) {
+		top: 530px;
+		right: 100px;
+
+		background-color: #C74;
+	} #menu li:nth-child(7) a {
+	} #menu li:nth-child(7):hover {
+		background-color: #C74;
+	}
+
+	/* grey */
+	#menu li:nth-child(8) {
+		top: 245px;
+		right: 35px;
+
+		background-color: #888;
+	} #menu li:nth-child(8) a {
+	} #menu li:nth-child(8):hover {
+		background-color: #888;
+	}
+
+	/* white */
+	#menu li:nth-child(9) {
+		top: 345px;
+		right: 295px;
+
+		background-color: #AAA;
+	} #menu li:nth-child(9) a {
+	} #menu li:nth-child(9):hover {
+		background-color: #AAA;
+	}
+}
+
 /* Actual body/content style */
 
 #content h1:first-child {
 	padding-top: 100px;
+	margin-top: 0px;
 	border-bottom: 1px solid #888;
 	margin-bottom: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
 
-	font-size: 48pt;
-} #content h3#date {
+	font-size: 45pt;
+} #content h3#date, #content h3#version {
 	margin-top: -10px;
 	text-align: right;
 }
@@ -250,36 +375,44 @@ html, body {
 }
 
 #content {
-	font-size: 22pt;
+	font-size: 15pt;
 } #content h1 {
 	font-size: 46pt;
 	padding: 0 50px;
-	margin-left: 40px;
-	margin-right: 40px;
+	margin-top: 32px;
+	margin-left: 0px;
+	margin-right: 0px;
 } #content h2 {
 	font-size: 34pt;
 	padding: 0 50px;
 	margin-top: 32px;
-	margin-left: 32px;
-	margin-right: 32px;
+	margin-left: 0px;
+	margin-right: 0px;
 } #content h3 {
-	font-size: 30pt;
+	font-size: 27pt;
 	padding: 0 50px;
 	margin-top: 24px;
-	margin-left: 24px;
-	margin-right: 24px;
+	margin-left: 0px;
+	margin-right: 0px;
 } #content h4 {
-	font-size: 26pt;
+	font-size: 23pt;
 	padding: 0 50px;
 	margin-top: 16px;
-	margin-left: 16px;
-	margin-right: 16px;
+	margin-left: 0px;
+	margin-right: 0px;
+} #content .header-section-number:after, .toc-section-number:after {
+} #content .header-section-number, .toc-section-number {
+	font-family: Monospace;
+} #content .header-section-number {
+	display: inline-block;
+	min-width: 100px;
 } #content p {
 	margin: 20px;
+	padding: 0 30px;
 } #content > table, #content > ul, #TOC > ul, #content > ol {
 	margin-right: 80px;
 	margin-left: 80px;
-	width: 100%;
+	width: calc(100% - 180px);
 } #content table {
 	border-top: 1px solid #CCC;
 	border-bottom: 1px solid #CCC;
