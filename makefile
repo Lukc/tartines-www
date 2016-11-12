@@ -27,5 +27,6 @@ ${page:C/$/-clean/}:
 tartines.7: rules.md
 	pandoc -T man -M section:7 rules.md -w man -o - | sed 's| (#[^)]*)||' > tartines.7
 clean-tartines.7:
-	rm tartines.7
+	@echo ' [  RM  ] ./tartines.7'
+	$Qrm -f ./tartines.7
 
