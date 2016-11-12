@@ -3,7 +3,7 @@ PAGES != find . | grep '\.md$$'
 
 Q := @
 
-PANDOC_OPTS = -f markdown -t html --toc -M menu -M content
+PANDOC_OPTS = -f markdown -t html --toc --toc-depth=4 -M menu -M content
 
 all: ${PAGES:C/.md$/.xhtml/g}
 clean: ${PAGES:C/$/-clean/g} clean-tartines.7
