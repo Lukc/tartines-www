@@ -13,9 +13,7 @@
 
   0.
 
-    ### Essayons, en tant que civilisation, de dépasser l’étape des blagues de pénis
-
-    C’est TELLEMENT surfait que ce n’est plus drôle.
+    ### ---
 
   0.
 
@@ -62,22 +60,9 @@
 
   0.
 
-    ### Quand on regarde dans l’abysse, l’abysse nous regarde aussi.
-
-    Certaines choses sombres feraient mieux d’être ignorées le temps
-    de pouvoir les illuminer. La motivation et la bonne humeur sont
-    deux ressources précieuses à chérir.
+    ### ---
 
   0.
 
-    ### Son sacrifice ne sera pas oublié.
-
-    Les lois de la physique ne doivent pas changer, et convertir
-    les âmes en énergie est banni !
-
-    Ceux qui ont vécu dans un univers précédent comprendront ce que
-    cela veut dire.
-
-    Également, ayez de l’humour. Ou de la Culture. De préférence les deux.
-    Vous pourriez cependant être pardonné pour ne pas les avoir.
+    ### ---
 

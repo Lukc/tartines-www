@@ -12,9 +12,7 @@
 
   0.
 
-    ### Let’s all try, as a civilization, to go past the ‘penis jokes’ stage.
-
-    That is just SO overdone it’s not funny anymore.
+    ### ---
 
   0.
 
@@ -60,20 +58,9 @@
 
   0.
 
-    ### When you look into an abyss, the abyss also looks into you.
-
-    Some dark things are better ignored until we are able to brighten them.
-    Mood and good-will are both valuable resources that we should cherish.
+    ### ---
 
   0.
 
-    ### Her sacrifice will not be forgotten.
-
-    The laws of physics must not change, and converting souls into energy is
-    banned.
-
-    People who lived in a previous universe will understand what this means.
-
-    Also, have humor. Or culture. Preferably both. You might still be forgiven
-    for not having them.
+    ### ---
 
