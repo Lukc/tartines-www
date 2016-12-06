@@ -1,5 +1,34 @@
+@font-face {
+  font-family: 'GidoleRegular';
+  src: url('./fonts/GidoleRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
-@import url("https://fontlibrary.org/face/gidole-regular");
+@font-face {
+  font-family: 'GidolinyaRegular';
+  src: url('./fonts/GidolinyaRegular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* The following rules are deprecated. */ 
+
+@font-face {
+  font-family: 'Gidole';
+  src: url('./fonts/GidoleRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'Gidolinya';
+  src: url('./fonts/GidolinyaRegular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 * {
 	margin: 0;
