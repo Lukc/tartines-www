@@ -3,7 +3,7 @@ PAGES != find . | grep '\.md$$'
 
 Q := @
 
-TEMPLATE = templates/template.xhtml
+TEMPLATE = templates/template.tmpl
 PANDOC_OPTS = -f markdown -t html --template="${TEMPLATE}" --toc -M menu -M content
 
 all: ${PAGES:C/.md$/.xhtml/g}
