@@ -9,31 +9,14 @@ version: "0.0.1"
 
 The present document is a set of rules to be followed by Tartines’ members and [Council].
 
-It is a reference helping to bring structure to Tartines, guiding its members and informing outsiders of how Tartines works.
+It is a reference that aims to bring structure to Tartines by guiding its members.
+It is meant to be used as well by outsiders needing to understand how Tartines works.
 
 The present document is still experimental and very much a work in progress, something that *may* be named a “beta” in the software industry.
 It is very likely to change in the next few weeks.
 Version updates have not started either, because the document has not been [approved](#votes).
 
-The [Council] *may* decide at any time to [vote](#votes) the [edition](#updates) of this document.
-
-## Updates
-
-The present code *may* be modified by the Council in the future.
-
-Any major modifications *must* happen after a vote of the Council.
-Any modification that affects the existing rules of Tartines or adds or removes one or more rules *must* be considered a major modification.
-Any modification that is not considered [trivial](#trivial-editions) *must* be considered a major modification.
-
-## Trivial editions
-
-The following kinds of modifications are considered trivial and *may* be made by the Council without vote:
-
-  - stylesheet edition;
-  - grammatical corrections;
-  - translation corrections;
-  - adding missing anchors;
-  - adding external references.
+The [Council] *may* decide at any time to [vote](#votes) the [edition](#updates) of this document, updating its [version number](#version) as required.
 
 ## Version
 
@@ -59,9 +42,9 @@ They remain valid and *must not* be changed until the next Congress.
 
 ## Basic membership
 
-[Council] members are Tartines’ members.
+The [Council] *may* approve one’s request to become a member of Tartines.
 
-There is currently no other way to become an official member of Tartines.
+Upon doing so, the new member will be named **knight**, **squire** or **scribe**.
 
 ## Council
 
@@ -184,4 +167,22 @@ Everything published by Tartines or its [Council] *must* be distributed under an
 # Dissolution
 
 Tartines *must not* dissolve. It is simply not an option, and such an event has no reason to happen in the foreseeable future.
+
+# Annex
+
+## Updates
+
+The present code *may* be modified by the Council in the future.
+
+Any major modifications *must* happen after a vote of the Council.
+Any modification that affects the existing rules of Tartines or adds or removes one or more rules *must* be considered a major modification.
+Any modification that is not considered trivial *must* be considered a major modification.
+
+The following kinds of modifications are considered trivial and *may* be made by the Council without vote:
+
+  - stylesheet edition;
+  - grammatical corrections;
+  - translation corrections;
+  - adding missing anchors;
+  - adding external references.
 
