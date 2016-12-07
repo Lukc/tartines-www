@@ -413,7 +413,7 @@ html, body {
 	margin-right: 0px;
 } #content .header-section-number:after, .toc-section-number:after {
 } #content .header-section-number, .toc-section-number {
-	font-family: Monospace;
+	font-family: GidolinyaRegular;
 } #content .header-section-number {
 	display: inline-block;
 	min-width: 100px;
