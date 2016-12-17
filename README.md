@@ -1,8 +1,8 @@
-# Tartines-www
+% tartines-www
 
-tartines.org website
+Tartines’s website, to be seen on tartines.org.
 
-# Dependancies
+# Dependencies
 
   * pandoc
   * [b|p]make
@@ -14,3 +14,4 @@ Using bmake:
 ```bash
 bmake clean && bmake
 ```
+
