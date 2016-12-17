@@ -6,11 +6,15 @@ Q := @
 TEMPLATE = templates/template.tmpl
 PANDOC_OPTS = -f markdown -t html --template="${TEMPLATE}" --toc -M menu -M content
 
-all: public ${PAGES:C/.md$/.xhtml/g}
+all: public static ${PAGES:C/.md$/.xhtml/g}
 clean: ${PAGES:C/$/-clean/g}
 
 public:
 	$Qmkdir -p public/meetings
+
+static:
+	$Qcp index.js public/index.js
+	$Qcp style.css public/style.css
 
 .for page in ${PAGES}
 ${page:C/.md$/.xhtml/}: ${page} ${TEMPLATE}
