@@ -12,6 +12,7 @@ clean: ${PAGES:C/$/-clean/g}
 
 public:
 	$Qmkdir -p public/meetings
+	$Qmkdir -p public/fonts
 
 tmp:
 	$Qmkdir -p tmp/meetings
@@ -19,6 +20,7 @@ tmp:
 static:
 	$Qcp index.js public/index.js
 	$Qcp style.css public/style.css
+	$Qcp -r fonts public
 
 .for page in ${PAGES}
 public/${page:C/.md$/.xhtml/}: ${page} tmp/${page:C/.md$/.lang.xhtml/}
