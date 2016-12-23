@@ -12,9 +12,11 @@ clean: ${PAGES:C/$/-clean/g}
 
 public:
 	$Qmkdir -p public/meetings
+	$Qmkdir -p public/various
 
 tmp:
 	$Qmkdir -p tmp/meetings
+	$Qmkdir -p tmp/various
 
 static:
 	$Qcp index.js public/index.js
