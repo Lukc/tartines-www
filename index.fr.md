@@ -11,6 +11,5 @@ l’éducation.
 
 Nous sommes ouverts d’esprit et dédions nos vies à la Science et à la Culture.
 
-Nous croyons au Logiciel Libre, à la démocratie, à la décentralisation, et
-à de diverses autres choses !
+Nous croyons au [logiciel Libre](https://fr.wikipedia.org/wiki/Logiciel_libre), à la démocratie, à la décentralisation, et à de diverses autres choses !
 
