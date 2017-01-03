@@ -18,21 +18,6 @@ Version updates have not started either, because the document has not been [appr
 
 The [Council] *may* decide at any time to [vote](#votes) the [edition](#updates) of this document, updating its [version number](#version) as required.
 
-## Version
-
-On update of this document, including for trivial modifications, the version number *must* be updated.
-Such version changes *must* be compliant with [Semantic Versioning 2.0](http://semver.org) or any newer version.
-
-Specifically, the following rules *must* be applied:
-
-  - if new rules are added, if rules are removed or if existing rules are edited, the major version number *must* be increased;
-  - if new rules are added without requiring the edition of previous rules and without altering their behavior, the minor version number *must* be increased;
-  - if only minor modifications are applied, the patch version number *must* be increased.
-
-## RFC 2119
-
-The key words “*must*”, “*must not*”, “*required*”, “*shall*”, “*shall not*”, “*should*”, “*should not*”, “*recommended*”,  “*may*”, and “*optional*” in this document are to be interpreted as described in [RFC 2119](https://tools.ietf.org/html/rfc2119.html).
-
 # Objectives
 
 Tartines’ objectives *must* be decided during a [Congress](#congress).
@@ -169,6 +154,21 @@ Everything published by Tartines or its [Council] *must* be distributed under an
 Tartines *must not* dissolve. It is simply not an option, and such an event has no reason to happen in the foreseeable future.
 
 # Annex
+
+## Version
+
+On update of this document, including for trivial modifications, the version number *must* be updated.
+Such version changes *must* be compliant with [Semantic Versioning 2.0](http://semver.org) or any newer version.
+
+Specifically, the following rules *must* be applied:
+
+  - if new rules are added, if rules are removed or if existing rules are edited, the major version number *must* be increased;
+  - if new rules are added without requiring the edition of previous rules and without altering their behavior, the minor version number *must* be increased;
+  - if only minor modifications are applied, the patch version number *must* be increased.
+
+## RFC 2119
+
+The key words “*must*”, “*must not*”, “*required*”, “*shall*”, “*shall not*”, “*should*”, “*should not*”, “*recommended*”,  “*may*”, and “*optional*” in this document are to be interpreted as described in [RFC 2119](https://tools.ietf.org/html/rfc2119.html).
 
 ## Updates
 
