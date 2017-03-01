@@ -2,7 +2,7 @@
 title: Code of Tartines
 show-toc: true
 numbersections: true
-version: "0.0.1"
+version: "2.0.0"
 ...
 
 # Abstract
@@ -12,15 +12,18 @@ The present document is a set of rules to be followed by Tartines’ members and
 It is a reference that aims to bring structure to Tartines by guiding its members.
 It is meant to be used as well by outsiders needing to understand how Tartines works.
 
-The present document is still experimental and very much a work in progress, something that *may* be named a “beta” in the software industry.
-It is very likely to change in the next few weeks.
-Version updates have not started either, because the document has not been [approved](#votes).
-
 The [Council] *may* decide at any time to [vote](#votes) the [edition](#updates) of this document, updating its [version number](#version) as required.
 
 # Objectives
 
-Tartines’ objectives *must* be decided during a [Congress](#congress).
+Tartines is a guild whose members *must* help each other to achieve various objectives.
+Those objectives include non-exhaustively the following elements :
+
+  - fight inequalities ;
+  - spread Culture, Science and Technology ;
+  - contribute to building a better, more comfortable and safer world.
+
+Specific, short-term objectives for Tartines *must* be decided during a [Congress](#congress).
 They remain valid and *must not* be changed until the next Congress.
 
 # Membership
@@ -30,6 +33,13 @@ They remain valid and *must not* be changed until the next Congress.
 The [Council] *may* approve one’s request to become a member of Tartines.
 
 Upon doing so, the new member will be named **knight**, **squire** or **scribe**.
+The title is chosen by the Council.
+
+Knights are administrators or people who fight for Tartines or its events on a political or organisational level.
+
+Squires are masters of Technology and builder of Tartines’ infrastructure, hardware or other, new possessions.
+
+Scribes are guardians of Culture, Science and Health.
 
 ## Council
 
@@ -42,16 +52,25 @@ Members of the Council *must* be equally great people and *must* work together t
 
 The Council *may* also be named the “Grand Council”.
 
+## Loss of membership
+
+[Membership](#basic-membership) from Tartines or its [Council] *may* be revoked if voted by the Council.
+
+Such a vote *should not* take place unless one of the following situations arises:
+
+  - a member of the Council has become unable to assume its responsibilities — that is, has become unable to vote or contribute to Tartines’ decisions for an extended period of time — without the situation being on the verge of changing ;
+  - a member of Tartines used the Guild’s resources in a way that proved harmful or dangerous for him or for the Guild itself.
+
 # Meetings
 
 ## World Domination Meetings
 
-World Domination Meetings are weekly meetings.
-They occur on Monday at 21:00, Paris time on the [Council]’s chatroom.
+World Domination Meetings *may* be summoned by Council members to discuss future decisions or changes in Tartines’ structure.
 
 They *should* occur over Jabber to avoid having members of the Council unable to participate.
 
-They *may* be skipped the week after a [Congress].
+Council members *should* be present during World Domination Meetings.
+If they cannot be present, they *must* read the proceedings as soon as possible.
 
 ## Congress
 
@@ -77,11 +96,9 @@ As [vote results](#publication-of-results) *may* be published in the proceedings
 
 ## Procedure
 
-The [Council] *may* decide to open a vote for any particular point on a meeting’s agenda.
-Votes *should* only be opened during the meeting in which they are discussed.
-If such an opportunity has been missed, it *may* be created again by adding that same point to the next meeting’s agenda.
+A [Council] member *may* decide to open a vote for any reason and at any time.
 
-Opening a vote outside of a meeting could lead to members of the Council not being informed about it, potentially being notified too late to be able to vote meaningfully.
+All Council members *must* be notified of new votes having been opened as soon as they are opened.
 
 Once a vote is opened, members of the Council *may* start voting “in favor”, “blank” or “against” the motion.
 The vote *must* remain open for 7 days unless an [exceptional derogation](#exceptional-derogations) is accorded.
@@ -110,9 +127,8 @@ During such a vote, asymmetric cryptographic keys *should* be used and the resul
 
 The results of the votes *must* be publicly accessible.
 
-Those results *should* be noted in the proceedings of the meeting in which they occurred unless they occurred outside of a meeting.
-Publishing them separately adds work and provides no additional value.
-It also makes it more difficult to find them due to their presence being expected in the proceedings.
+Unless the votes are private, each voter’s opinion *should* be published.
+Any justification given for any vote *must* be published with the results.
 
 ## Exceptional derogations
 
@@ -123,6 +139,13 @@ Such a vote is validated as soon as all Council members have voiced their opinio
 
 Voting rights are granted to all members of the Council as soon as they are officially named as such.
 Those voting rights *must not* be used to alter past votes, not even those that happened during the same meeting as the new member was named.
+
+# Memos
+
+Memos *may* be published by [Council] members to document changes in Tartines’ events or infrastructure.
+A memo *must* be published for any non-trivial event.
+
+Council members *must* be notified individually of new memos in the shortest possible delays.
 
 # Property
 
@@ -151,7 +174,8 @@ Everything published by Tartines or its [Council] *must* be distributed under an
 
 # Dissolution
 
-Tartines *must not* dissolve. It is simply not an option, and such an event has no reason to happen in the foreseeable future.
+Tartines *must not* dissolve.
+It is simply not an option, and such an event has no reason to happen in the foreseeable future.
 
 # Annex
 
