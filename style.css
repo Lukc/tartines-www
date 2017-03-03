@@ -69,7 +69,7 @@ html, body {
 #content {
 	text-align: left;
 	min-height: 100vh;
-  width: 100%;
+	width: 100%;
 	padding-bottom: 80px;
 }
 
@@ -79,11 +79,11 @@ html, body {
 	overflow: hidden;
 	text-align: center;
 	font-size: 16pt;
-  margin-right: 5px;
+	margin-right: 5px;
 }
 
 #menu li:empty {
-  display: none;
+	display: none;
 }
 
 #menu li a {
@@ -100,7 +100,7 @@ html, body {
 /* Very small squares */
 #menu li:nth-child(8), #menu li:nth-child(9) {
 	height: 35px;
-  line-height: 35px;
+	line-height: 35px;
 	font-size: 16pt;
 }
 
@@ -209,6 +209,7 @@ html, body {
 	margin-bottom: 6px;
 	margin-top: 6px;
 	margin-left: 36px;
+	list-style-type: "—  ";
 }
 
 #content {
@@ -243,7 +244,7 @@ html, body {
 } #content .header-section-number {
 	display: inline-block;
 	min-width: 100px;
-} #content p {
+} #content p, #content dl {
 	margin: 20px;
 	padding: 0 30px;
 } #content > table, #content > ul, #TOC > ul, #content > ol {
@@ -263,12 +264,37 @@ html, body {
 	padding: 3px 6px;
 } #content hr {
 	margin: 10px;
+	border: none;
+	text-align: center;
+} #content hr:before {
+	content: "⁂";
+	color: #888;
+}
+
+#content dl {
+} #content dl dt {
+	color: #268C73;
+} #content dl dt:before {
+} #content dl dd {
+	position: relative;
+} #content dl dd:before {
+	content: "Ð";
+	font-size: 200%;
+	color: #888;
+	vertical-align: middle;
+	position: absolute;
+	left: 0.25em;
+	top: 0.25em;
+} #content dl dd {
+	line-height: 1em;
+	min-height: 2em;
 }
 
 #content em {
 	color: #268C73;
 } #content strong {
-	color: #5F9327;
+	color: #8c263f;
+	font-weight: bold;
 } #content a {
 	color: #778315;
 } #content a:hover {

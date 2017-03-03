@@ -7,7 +7,7 @@ version: "2.0.0"
 
 # Abstract
 
-The present document is a set of rules to be followed by Tartines’ members and [Council].
+The present document is a set of rules to be followed by Tartines' members and [Council].
 
 It is a reference that aims to bring structure to Tartines by guiding its members.
 It is meant to be used as well by outsiders needing to understand how Tartines works.
@@ -30,27 +30,44 @@ They remain valid and *must not* be changed until the next Congress.
 
 ## Basic membership
 
-The [Council] *may* approve one’s request to become a member of Tartines.
+The [Council] *may* approve one's request to become a member of Tartines.
 
 Upon doing so, the new member will be named **knight**, **squire** or **scribe**.
 The title is chosen by the Council.
 
-Knights are administrators or people who fight for Tartines or its events on a political or organisational level.
+All of the three titles are equal in rank in status, and they serve no limitative purpose.
 
-Squires are masters of Technology and builder of Tartines’ infrastructure, hardware or other, new possessions.
+---
 
-Scribes are guardians of Culture, Science and Health.
+Knights
+
+: **Knights** are administrators or organisers of Tartines' events.
+They also ought to represent Tartines before other organisations or groups.
+
+Squires
+
+: **Squires** are maintainers and builders of new infrastructures.
+They ought to master new technologies and adapt them to fulfill the objectives of Tartines.
+
+Scribes
+
+: **Scribes** are guardians of Knowledge, Culture and Science.
+They represent Tartines' desire to understand the universe and to spread the resulting knowledge.
 
 ## Council
 
-The Council is the group of members who possess voting rights within Tartines.
+Council
+
+: The **Council** is the group of members who possess voting rights within Tartines.
 
 Candidatures to become a member of the Council *must* be brought directly to the Council.
 The inclusion of new members in the Council *must* be [voted](#votes).
 
 Members of the Council *must* be equally great people and *must* work together towards the greater good of Tartines or of the world.
 
-The Council *may* also be named the “Grand Council”.
+Grand Council
+
+: “**Grand Council**” *may* be used as an alternate name for the Council.
 
 ## Loss of membership
 
@@ -58,14 +75,14 @@ The Council *may* also be named the “Grand Council”.
 
 Such a vote *should not* take place unless one of the following situations arises:
 
-  - a member of the Council has become unable to assume its responsibilities — that is, has become unable to vote or contribute to Tartines’ decisions for an extended period of time — without the situation being on the verge of changing ;
-  - a member of Tartines used the Guild’s resources in a way that proved harmful or dangerous for him or for the Guild itself.
+  - a member of the Council has become unable to assume its responsibilities — that is, has become unable to vote or contribute to Tartines' decisions for an extended period of time — without the situation being on the verge of changing ;
+  - a member of Tartines used the Guild's resources in a way that proved harmful or dangerous for him or for the Guild itself.
 
 # Meetings
 
 ## World Domination Meetings
 
-World Domination Meetings *may* be summoned by Council members to discuss future decisions or changes in Tartines’ structure.
+World Domination Meetings *may* be summoned by Council members to discuss future decisions or changes in Tartines' structure.
 
 They *should* occur over Jabber to avoid having members of the Council unable to participate.
 
@@ -74,25 +91,34 @@ If they cannot be present, they *must* read the proceedings as soon as possible.
 
 ## Congress
 
+Congress
+
+: A **Congress** is a real-life meeting during which Tartines members can exchange knowledge, work on common projets, or discuss solutions to issues Tartines or its members are facing.
+
 From time to time, Tartines summons a Congress during which its [members](#basic-membership) *may* meet in real life.
 The dates, location and duration *must* decided by [vote](#votes).
 Each Congress usually lasts two weekend days, but this *may* change if the Council finds it more practical.
 
 The planning and events to happen during the Congress *may* be listed beforehand or *may* be improvised while the Congress happens.
-Hardware, equipment or other resources *may* be provided by Tartines’ members during a Congress.
+Hardware, equipment or other resources *may* be provided by Tartines' members during a Congress.
 
 ## Agendas
 
-A meeting’s agenda *must* be editable by all [Council] members before the meeting occurs.
+A meeting's agenda *must* be editable by all [Council] members before the meeting occurs.
 
 ## Proceedings
 
-Every meeting’s proceedings *must* be stored and archived for [eternity](#dissolution).
+Every meeting's proceedings *must* be stored and archived for [eternity](#dissolution).
 
-A meeting’s proceedings *should* be published to allow interested parties that missed the meeting to know what decisions took place.
+A meeting's proceedings *should* be published to allow interested parties that missed the meeting to know what decisions took place.
 As [vote results](#publication-of-results) *may* be published in the proceedings, not publishing the proceedings would mean the results of the votes would have to published separately.
 
 # Votes
+
+## Objectives
+
+Tartines’ votes are votes of approbation designed to confirm decisions taken by members of its [Council].
+They *must not* be used to take decisions.
 
 ## Procedure
 
@@ -101,39 +127,40 @@ A [Council] member *may* decide to open a vote for any reason and at any time.
 All Council members *must* be notified of new votes having been opened as soon as they are opened.
 
 Once a vote is opened, members of the Council *may* start voting “in favor”, “blank” or “against” the motion.
-The vote *must* remain open for 7 days unless an [exceptional derogation](#exceptional-derogations) is accorded.
+The vote *must* remain open for 7 days or the approbation of an [immediate application](#immediate-application), whichever comes first.
 
-After the 7 days delay or an exceptional derogation, the motion *must* be approved or refused based on the following rules:
+After the 7 days delay or a decision of immediate application, the motion *must* be approved or refused based on the following rules:
 
   - if someone votes against the motion, the motion is refused;
   - if no-one votes in favor of the motion, the motion is refused;
   - if none of those cases happen, the motion is accepted by the Council.
 
 Special mention *may* be made if the voters are unanimously in favor of the motion.
-Voters *may* justify their votes, and that justification *must*, if requested, be noted in the meeting’s proceedings.
+Voters *may* justify their votes, and that justification *must*, if requested, be noted in the meeting's proceedings.
 
 One *must* be a member of the Council in order to vote.
 
 ## Privacy
 
-Each voter’s vote *should not* be private.
+Each voter's vote *should not* be private.
 
 Voting privately is very impractical and difficult to guarantee over the network, leading at the very least to technical issues, and possibly to more philosophical issues relating to trust and impartiality.
 
-If a private vote is actually requested for any reason, the [Council]’s members will decide how to receive and process the votes.
+If a private vote is actually requested for any reason, the [Council]'s members will decide how to receive and process the votes.
 During such a vote, asymmetric cryptographic keys *should* be used and the results *must* be processed automatically by a robot, script or other piece of software to make sure no-one known whose vote is whose.
 
 ## Publication of results
 
 The results of the votes *must* be publicly accessible.
 
-Unless the votes are private, each voter’s opinion *should* be published.
+Unless the votes are private, each voter's opinion *should* be published.
 Any justification given for any vote *must* be published with the results.
 
-## Exceptional derogations
+## Immediate application
 
 When time is essential, the Council *may* decide to accelerate a decision by additionally voting its immediate application.
-Such a vote is validated as soon as all Council members have voiced their opinion.
+
+A vote is validated and its decision applied immediately if all members of the Council have voted and are in favor of an immediate application.
 
 ## Voting rights
 
@@ -142,7 +169,7 @@ Those voting rights *must not* be used to alter past votes, not even those that 
 
 # Memos
 
-Memos *may* be published by [Council] members to document changes in Tartines’ events or infrastructure.
+Memos *may* be published by [Council] members to document changes in Tartines' events or infrastructure.
 A memo *must* be published for any non-trivial event.
 
 Council members *must* be notified individually of new memos in the shortest possible delays.
@@ -151,21 +178,21 @@ Council members *must* be notified individually of new memos in the shortest pos
 
 ## Hardware
 
-Tartines’ hardware is possessed by the members of the Council.
+Tartines' hardware is possessed by the members of the Council.
 
-The Council’s members *may* decide to give additional hardware or to take it back at any time depending on Tartines’ needs.
+The Council's members *may* decide to give additional hardware or to take it back at any time depending on Tartines' needs.
 If hardware or other goods are to be obtained by Tartines, the Council *must* decide which of its members will obtain them.
 
 ## Finances
 
-Tartines’, as a group, does not possess the ability to own money.
+Tartines', as a group, does not possess the ability to own money.
 
 If the Council decides monetary resources are required, its members *must* decide who will pay what.
 If monetary resources are to be obtained by Tartines, the Council *must* decide which of its members will obtain them.
 
 ## Name and image
 
-The name “Tartines” or Tartines’ logo *may* be used in documentation or other promotional materials.
+The name “Tartines” or Tartines' logo *may* be used in documentation or other promotional materials.
 Such uses *must* be [voted](#votes) by the Council.
 
 ## Intellectual property
