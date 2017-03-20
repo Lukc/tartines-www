@@ -23,7 +23,7 @@
 }
 
 body {
-	font-family: OrkneyRegular, GidoleRegular, Sans-Serif;
+	font-family: OrkneyRegular, GidoleRegular, Gidole, Sans-Serif;
 	font-size: 11pt;
 
 	text-align: center;
@@ -200,6 +200,9 @@ html, body {
 } #content h3#date, #content h3#version {
 	margin-top: -10px;
 	text-align: right;
+} #content h3.author {
+	margin-top: 0;
+	text-align: right;
 }
 
 #content ul {
@@ -240,13 +243,16 @@ html, body {
 	margin-right: 0px;
 } #content .header-section-number:after, .toc-section-number:after {
 } #content .header-section-number, .toc-section-number {
-	font-family: GidolinyaRegular;
+	font-family: GidolinyaRegular, Gidolinya, Monospace;
 } #content .header-section-number {
 	display: inline-block;
 	min-width: 100px;
-} #content p, #content dl {
+} #content p, #content dl, #content pre, #content pre code {
 	margin: 20px;
 	padding: 0 30px;
+	display: block;
+} #content pre code {
+	font-family: "Fira Code", "Fira Mono", Monospace;
 } #content > table, #content > ul, #TOC > ul, #content > ol {
 	margin-right: 80px;
 	margin-left: 80px;
@@ -262,6 +268,11 @@ html, body {
 	padding: 0 20px;
 } #content table td {
 	padding: 3px 6px;
+} #content table thead th {
+	font-weight: bold;
+	padding: 8px 16px;
+} #content table thead tr {
+	border-bottom: 1px solid #CCC;
 } #content hr {
 	margin: 10px;
 	border: none;
@@ -271,23 +282,41 @@ html, body {
 	color: #888;
 }
 
-#content dl {
-} #content dl dt {
-	color: #268C73;
-} #content dl dt:before {
-} #content dl dd {
+#content pre code, #content dl dd {
 	position: relative;
-} #content dl dd:before {
-	content: "Ð";
-	font-size: 200%;
-	color: #888;
-	vertical-align: middle;
-	position: absolute;
-	left: 0.25em;
-	top: 0.25em;
-} #content dl dd {
 	line-height: 1em;
 	min-height: 2em;
+} #content pre, #content pre code, #content dl dd {
+} #content pre code:before, #content dl dd:before {
+	font-family: GidolinyaRegular, Gidolinya, Monospace;
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	top: 0;
+
+	padding: 10px 5px;
+	background-color: #BBB;
+	color: #FFF;
+	font-size: 200%;
+
+	width: 0.7em;
+	text-align: center;
+	vertical-align: middle;
+
+	border: 2px solid #EEE;
+} #content pre code:before {
+	content: "#";
+	margin-left: -20px; /* … */
+} #content dl dd:before {
+	content: "Ð";
+}
+
+#content dl {
+	margin-bottom: 10px;
+} #content dl dt {
+	color: #268C73;
+	margin-bottom: -10px;
+	margin-top: 10px;
 }
 
 #content em {
@@ -305,6 +334,28 @@ html, body {
 
 #TOC {
 	margin: 40px;
+}
+
+h1#subtitle {
+	font-size: 40pt;
+	/*border-bottom: 1px solid #888;*/
+	margin-left: 40px;
+	margin-right: 40px;
+} div#abstract {/*
+	margin-left: 60px;
+	border-left: 4px solid #CCC;*/
+	padding: 8px 0;
+	margin-top: 16px;
+	background: #EEE;
+} #abstract > p {
+	/*padding-left: 0;*/
+} h3#addressee {
+	color: #888;
+	margin-top: 0;
+	text-align: right;
+	/*
+	margin-left: 40px;
+	margin-right: 40px;*/
 }
 
 @media (max-width:360px){
@@ -483,4 +534,16 @@ html, body {
   #menu {
     right: 65%;
   }
+}
+
+@media print {
+	#menu, #lang {
+		display: none;
+	}
+
+	#content {
+		margin-left: -20px;
+		margin-right: -20px;
+		font-size: 12pt;
+	}
 }

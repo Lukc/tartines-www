@@ -9,7 +9,13 @@
 		<title>Tartines — $pagetitle$</title>
 		$endif$
 
-    <script type="application/javascript" src="index.js"></script>
+		$if(highlighting-css)$
+		  <style type="text/css">
+		$highlighting-css$
+		  </style>
+		$endif$
+
+		<script type="application/javascript" src="index.js"></script>
 	</head>
 	<body>
 		<div id="container">
@@ -67,11 +73,30 @@
 				<h1 id="$idprefix$">$title$</h1>
 				$endif$
 
-				$if(version)$
-				<h3 id="version">Version $version$</h3>
+				<div id="subtitles">
+					$if(version)$
+					<h3 id="version">Version $version$</h3>
+					$endif$
+					$if(date)$
+					<h3 id="date">$date$</h3>
+					$endif$
+					$for(author)$
+					<h3 class="author">$author$</h3>
+					$endfor$
+
+					$if(addressee)$
+					<h3 id="addressee">$addressee$</h3>
+					$endif$
+				</div>
+
+				$if(subtitle)$
+				<h1 id="subtitle">$subtitle$</h1>
 				$endif$
-				$if(date)$
-				<h3 id="date">$date$</h3>
+
+				$if(abstract)$
+				<div id="abstract">
+				$abstract$
+				</div>
 				$endif$
 
 				$if(toc)$
