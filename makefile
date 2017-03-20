@@ -12,6 +12,7 @@ clean: ${PAGES:C/$/-clean/g}
 
 public:
 	$Qmkdir -p public/meetings
+	$Qmkdir -p public/memos
 	$Qmkdir -p public/various
 	$Qmkdir -p public/fonts
 
@@ -25,13 +26,9 @@ static:
 	$Qcp -r fonts public
 
 .for page in ${PAGES}
-public/${page:C/.md$/.xhtml/}: ${page} tmp/${page:C/.md$/.lang.xhtml/}
-	@echo ' [PANDOC] $@'
-	$Qpandoc ${PANDOC_OPTS} -M root:`templates/get-root.sh ${page}` `templates/number.sh ${page}` --template="templates/template`templates/get-lang.sh ${page}`.tmpl" ${page} -B tmp/${page:C/.md$/.lang.xhtml/} -o $@
-
-tmp/${page:C/.md$/.lang.xhtml/}: tmp ${page}
-	@echo ' [SCRIPT] $@'
-	$Qtemplates/gen-lang.sh '${page}' > '$@'
+public/${page:C/.md$/.xhtml/}: ./build.zsh ${page}
+	@./build.zsh -o public ${page}
+#	$Qpandoc ${PANDOC_OPTS} -M root:`templates/get-root.sh ${page}` `templates/number.sh ${page}` --template="templates/template`templates/get-lang.sh ${page}`.tmpl" ${page} -B tmp/${page:C/.md$/.lang.xhtml/} -o $@
 
 ${page:C/$/-clean/}:
 	@echo ' [  RM  ] ${page:C/.md$/.lang.xhtml/}'
