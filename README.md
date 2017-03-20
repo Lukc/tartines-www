@@ -1,6 +1,6 @@
 % tartines-www
 
-Tartines’s website, to be seen on tartines.org.
+Tartines's website, to be seen on tartines.org.
 
 # Dependencies
 

@@ -117,7 +117,7 @@ As [vote results](#publication-of-results) *may* be published in the proceedings
 
 ## Objectives
 
-Tartines’ votes are votes of approbation designed to confirm decisions taken by members of its [Council].
+Tartines' votes are votes of approbation designed to confirm decisions taken by members of its [Council].
 They *must not* be used to take decisions.
 
 ## Procedure

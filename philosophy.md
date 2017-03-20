@@ -1,10 +1,10 @@
-% Tartines’ philosophy
+% Tartines' philosophy
 
   1.
 
     ### If you try to have fun, you might become productive!
 
-    We are a friendly community. We’re here to make the world or ourselves
+    We are a friendly community. We're here to make the world or ourselves
     better.
 
     If you try to do things that you find fun, you might be willing to spend
@@ -22,15 +22,15 @@
 
     Barely doing it will make you stagnantly bad at it.
 
-    We’d better be active and all become better at what we do, so that we
+    We'd better be active and all become better at what we do, so that we
     can in turn help others to become good at it.
 
   0.
 
-    ### If you are trying to build a SWAT team, don’t bring in a traffic cop. <!-- Donnie Berkholz -->
+    ### If you are trying to build a SWAT team, don't bring in a traffic cop. <!-- Donnie Berkholz -->
 
-    Don’t waste your time bringing people who’re not fit for the job.
-    You’ll waste your time, and you’ll waste theirs.
+    Don't waste your time bringing people who're not fit for the job.
+    You'll waste your time, and you'll waste theirs.
 
   0.
 
@@ -39,8 +39,8 @@
     Our servers, computers and other devices usually have names to easily
     distinguish them. Real names. Not numbers or IDs.
 
-    You’re probably used to this, but if it looks like we’re talking about
-    someone, maybe we’re actually talking about something.
+    You're probably used to this, but if it looks like we're talking about
+    someone, maybe we're actually talking about something.
 
     Natsu and Fuyu were both servers we loved and cherished. May them Rest
     in Pieces.
@@ -54,7 +54,7 @@
     your failures.
 
     Similarly, try to learn from the people who worked on the same projects.
-    You’ll probably be able to do better that way!
+    You'll probably be able to do better that way!
 
   0.
 
