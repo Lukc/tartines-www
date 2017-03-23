@@ -2,7 +2,7 @@
 title: Code of Tartines
 show-toc: true
 numbersections: true
-version: "2.0.0"
+version: "2.0.1"
 ...
 
 # Abstract
@@ -60,14 +60,16 @@ Council
 
 : The **Council** is the group of members who possess voting rights within Tartines.
 
+Grand Council
+
+: “**Grand Council**” *may* be used as an alternate name for the Council, as “Council” may be used for other, temporary groups.
+
+---
+
 Candidatures to become a member of the Council *must* be brought directly to the Council.
 The inclusion of new members in the Council *must* be [voted](#votes).
 
 Members of the Council *must* be equally great people and *must* work together towards the greater good of Tartines or of the world.
-
-Grand Council
-
-: “**Grand Council**” *may* be used as an alternate name for the Council.
 
 ## Loss of membership
 
@@ -94,6 +96,8 @@ If they cannot be present, they *must* read the proceedings as soon as possible.
 Congress
 
 : A **Congress** is a real-life meeting during which Tartines members can exchange knowledge, work on common projets, or discuss solutions to issues Tartines or its members are facing.
+
+---
 
 From time to time, Tartines summons a Congress during which its [members](#basic-membership) *may* meet in real life.
 The dates, location and duration *must* decided by [vote](#votes).
