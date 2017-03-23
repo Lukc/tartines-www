@@ -33,31 +33,23 @@
 					</a>
 				</li>
 
-				<li></li>
-
 				<li>
-					<a href="rules.xhtml">
+					<a href="$root$/rules.xhtml">
 						Rules
 					</a>
 				</li>
 
 				<li>
 					<a href="$root$/jabber.xhtml">
-						Join us
+						Chat
 					</a>
 				</li>
-
-				<li></li>
 
 				<li>
 					<a href="$root$/faq.xhtml">
 						FAQ
 					</a>
 				</li>
-
-				<li></li>
-
-				<li></li>
 			</ul>
 			$endif$
 
@@ -65,12 +57,10 @@
 			$include-before$
 			$endfor$
 
-			$if(content)$
-			<div id="content">
-			$endif$
+			<div id="header">
 
 				$if(title)$
-				<h1 id="$idprefix$">$title$</h1>
+				<h1>$title$</h1>
 				$endif$
 
 				<div id="subtitles">
@@ -111,6 +101,12 @@
 				</div>
 				$endif$
 				$endif$
+
+			</div>
+
+			$if(content)$
+			<div id="content">
+			$endif$
 
 				$body$
 

@@ -58,13 +58,16 @@ for FILE in "${FILES[@]}"; do
 	FILE="${FILE#./}"
 
 	info "Generating $OUTPUT_DIR/${FILE}.xhtml"
-	pandoc ${FILE}.md -o $OUTPUT_DIR/${FILE}.xhtml \
+	pandoc ${FILE}.md \
+		-o $OUTPUT_DIR/${FILE}.xhtml \
+		-t html5 \
 		--template templates/template.tmpl \
 		$(templates/number.sh "./$FILE.md") \
 		-M root:"$(templates/get-root.sh "${FILE}.md")" \
 		-M menu \
 		-M content \
 		--highlight-style=pygments \
+		--section-divs \
 		--toc
 done
 

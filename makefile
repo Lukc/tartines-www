@@ -26,7 +26,7 @@ static:
 	$Qcp -r fonts public
 
 .for page in ${PAGES}
-public/${page:C/.md$/.xhtml/}: ./build.zsh ${page}
+public/${page:C/.md$/.xhtml/}: ./build.zsh ${page} templates/template.tmpl
 	@./build.zsh -o public ${page}
 #	$Qpandoc ${PANDOC_OPTS} -M root:`templates/get-root.sh ${page}` `templates/number.sh ${page}` --template="templates/template`templates/get-lang.sh ${page}`.tmpl" ${page} -B tmp/${page:C/.md$/.lang.xhtml/} -o $@
 
