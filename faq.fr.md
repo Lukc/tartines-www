@@ -6,11 +6,11 @@ show-toc: true
 Pourquoi « Tartines » ?
 -----------------------
 
-Parce que nous l’avons aléatoirement, arbitrairement décidé.
+Parce que nous l'avons aléatoirement, arbitrairement décidé.
 
-Tout n’a pas besoin d’une signification profonde.
+Tout n'a pas besoin d'une signification profonde.
 
-Qu’est le Temps Tartines ?
+Qu'est le Temps Tartines ?
 --------------------------
 
 Le Temps Tartines est une variante de temps hexadécimal dans lequel

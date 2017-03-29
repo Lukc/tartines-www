@@ -12,5 +12,5 @@
     * Logo
     * More infrastructure
     * Website updates
-    * Meetings’ archives and history
+    * Meetings' archives and history
 

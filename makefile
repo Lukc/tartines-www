@@ -6,36 +6,26 @@ Q := @
 TEMPLATE = templates/template.tmpl
 PANDOC_OPTS = -f markdown -t html --template="${TEMPLATE}" --toc --toc-depth=4 -M menu -M content
 
-all: public static ${PAGES:C/.md$/.xhtml/g:C/^/public\//}
+all: static ${PAGES:C/.md$/.xhtml/g:C/^/public\//}
 clean: ${PAGES:C/$/-clean/g}
-	$Qrm -rf public tmp
+	$Qrm -rf public
 
 public:
-	$Qmkdir -p public/meetings
-	$Qmkdir -p public/various
-	$Qmkdir -p public/fonts
+	$Qmkdir -p public/gbpl
 
-tmp:
-	$Qmkdir -p tmp/meetings
-	$Qmkdir -p tmp/various
-
-static:
+static: public
 	$Qcp index.js public/index.js
 	$Qcp style.css public/style.css
+	$Qcp gbpl/style.css public/gbpl/style.css
+	$Qcp -r gbpl/font-awesome-4.7.0 public/gbpl/
 	$Qcp -r fonts public
 
 .for page in ${PAGES}
-public/${page:C/.md$/.xhtml/}: ${page} tmp/${page:C/.md$/.lang.xhtml/}
-	@echo ' [PANDOC] $@'
-	$Qpandoc ${PANDOC_OPTS} -M root:`templates/get-root.sh ${page}` `templates/number.sh ${page}` --template="templates/template`templates/get-lang.sh ${page}`.tmpl" ${page} -B tmp/${page:C/.md$/.lang.xhtml/} -o $@
-
-tmp/${page:C/.md$/.lang.xhtml/}: tmp ${page}
-	@echo ' [SCRIPT] $@'
-	$Qtemplates/gen-lang.sh '${page}' > '$@'
+public/${page:C/.md$/.xhtml/}: ./build.zsh ${page} templates/template.tmpl
+	@./build.zsh -o public ${page}
 
 ${page:C/$/-clean/}:
-	@echo ' [  RM  ] ${page:C/.md$/.lang.xhtml/}'
-	$Qrm -f tmp/${page:C/.md$/.lang.xhtml/}
+	$Qrm -f public/${page:C/.md$/.xhtml/}
 .endfor
 
 tartines.7: rules.md

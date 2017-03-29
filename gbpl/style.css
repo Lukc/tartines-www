@@ -1,0 +1,155 @@
+
+@import url("font-awesome-4.7.0/css/font-awesome.css");
+
+@import url("../style.css");
+
+* {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	text-decoration: none;
+
+	font-size: 100%;
+}
+
+body {
+	font-family: OrkneyRegular, GidoleRegular,  Sans-Serif;
+	font-size: 16pt;
+
+	text-align: left;
+
+	background: #FFF;
+	color: #000;
+
+	overflow-x: hidden;
+}
+
+ul#menu {
+	margin: 0;
+	padding: 0;
+} ul#menu li {
+	display: inline-block;
+
+	font-size: 18pt;
+} ul#menu li a {
+	display: inline-block;
+
+	text-decoration: none;
+
+	color: #4AF;
+	padding: 12px;
+	margin-bottom: 4px;
+
+	background: #FFF!important;
+} ul#menu li a:hover {
+	margin-bottom: -4px;
+	border-bottom: 4px solid #4AF;
+}
+
+#container, #menu, #footer {
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#menu {
+	text-align: center;
+}
+
+#footer {
+	max-width: 1024px;
+	padding: 40px;
+	display: flex;
+	flex-direction: row;
+	color: #666;
+} #footer > * {
+	width: calc(50% - 20px);
+} #footer > *:first-child {
+	margin-right: 40px;
+} #footer h6 {
+	margin-bottom: 8px;
+	border-bottom: 1px solid #DDD;
+} #footer ul li {
+	list-style-type: none;
+	margin-left: 20px;
+	margin-right: 20px;
+} #footer a {
+	color: #69C;
+	padding: 0 2px;
+} #footer a:hover {
+	color: #FFF;
+	background: #4AF;
+}
+
+#content {
+	margin: 0;
+	width: auto;
+	max-width: 1024px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+
+	/* We have a footer on that sub-site, therefore thinner margins. */
+	padding-bottom: 20px;
+}
+
+hr {
+	margin: 12px 40px 16px;
+	border: none;
+	text-align: center;
+	border-bottom: 1px solid #DDD;
+	height: 0.5em;
+} hr:before {
+	content: "⁂";
+	color: #888;
+	background: #FFF;
+	padding: 0 20px;
+}
+
+.screen {
+	padding: 40px 0px;
+	font-size: 160%;
+	/*
+	text-align: center;
+	vertical-align: middle;
+	width: calc(100vw - 200px);
+	margin-left: calc(-50vw + 50%);
+	background: #A7F;
+	*/
+} .screen hr {
+	margin-bottom: 34px;
+}
+#screen-1 h1 {
+	font-size: 140%;
+}
+#screen-1 .fa {
+	font-size: 500%;
+	color: #777;
+	margin-right: 40px;
+}
+
+#public {
+	display: flex;
+	flex-direction: row;
+} #public h2 {
+/*	font-size: 250%;*/
+	margin-top: 5px;
+	margin-bottom: 15px;
+} #public #students {
+} #public #teachers {
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+} .row > section {
+	width: calc(50% - 20px);
+} .row > section:nth-child(2n+1) {
+	margin-right: 40px;
+}
+
+#content figure *, figure p {
+	text-align: inherit;
+}
+

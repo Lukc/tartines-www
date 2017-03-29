@@ -1,6 +1,6 @@
 % Multi User Chat
 
-Tartines’ members usually discuss through an online chat network called Jabber.
+Tartines' members usually discuss through an online chat network called Jabber.
 
 Our room is at <a href="xmpp:tartines@chat.tartines.org?join">tartines@chat.tartines.org</a>.
 
