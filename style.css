@@ -422,6 +422,14 @@ hr {
 		margin: 1.5cm;
 	}
 
+	body {
+		font-size: 11pt;
+	}
+
+	body {
+		page-break-inside: avoid;
+	}
+
 	#content aside {
 		margin-left: -200px;
 		width: 160px;

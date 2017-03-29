@@ -57,17 +57,25 @@ for FILE in "${FILES[@]}"; do
 	FILE="${FILE%.md}"
 	FILE="${FILE#./}"
 
+	TEMPLATE="$(dirname $FILE)/template.tmpl"
+
+	if ! [[ -r "$TEMPLATE" ]]; then
+		TEMPLATE=templates/template.tmpl
+	fi
+
 	info "Generating $OUTPUT_DIR/${FILE}.xhtml"
+	mkdir -p "$(dirname $OUTPUT_DIR/${FILE})"
 	pandoc ${FILE}.md \
 		-o $OUTPUT_DIR/${FILE}.xhtml \
 		-t html5 \
-		--template templates/template.tmpl \
+		--template "$TEMPLATE" \
 		$(templates/number.sh "./$FILE.md") \
 		-M root:"$(templates/get-root.sh "${FILE}.md")" \
 		-M menu \
 		-M content \
 		--highlight-style=pygments \
 		--section-divs \
-		--toc
+		--toc \
+		$CSS_OPT
 done
 
