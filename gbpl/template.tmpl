@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="$root$/gbpl/style.css" title="Default style"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" $if(lang)$ xml:lang="$lang$" $else$ lang="en" $endif$>
+	<head>
+		$if(index)$
+		<title>$pagetitle$</title>
+		$else$
+		<title>Grande Bibliothèque Pédagogique Libre — $pagetitle$</title>
+		$endif$
+
+		$if(highlighting-css)$
+		  <style type="text/css">
+		$highlighting-css$
+		  </style>
+		$endif$
+
+		<script type="application/javascript" src="index.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<ul id="menu">
+				<li>
+					<a href="#public">
+						Découvrir
+					</a>
+				</li>
+
+				<li>
+					<a href="#study">
+						Étudier
+					</a>
+				</li>
+				<li>
+					<a href="#export">
+						Exporter
+					</a>
+				</li>
+				<li>
+					<a href="#contribute">
+						Contribuer
+					</a>
+				</li>
+
+				<li>
+					<a href="#faq">
+						FAQ
+					</a>
+				</li>
+			</ul>
+
+			$for(include-before)$
+			$include-before$
+			$endfor$
+
+			$if(no-title)$
+			$else$
+			<div id="header">
+
+				$if(title)$
+				<h1>$title$</h1>
+				$endif$
+
+				<div id="subtitles">
+					$if(version)$
+					<h3 id="version">Version $version$</h3>
+					$endif$
+					$if(date)$
+					<h3 id="date">$date$</h3>
+					$endif$
+					$for(author)$
+					<h3 class="author">$author$</h3>
+					$endfor$
+
+					$if(addressee)$
+					<h3 id="addressee">$addressee$</h3>
+					$endif$
+				</div>
+
+				$if(subtitle)$
+				<h1 id="subtitle">$subtitle$</h1>
+				$endif$
+
+				$if(abstract)$
+				<div id="abstract">
+				$abstract$
+				</div>
+				$endif$
+
+				$if(toc)$
+				$if(show-toc)$
+				<div id="$idprefix$TOC">
+					$if(toc-title)$
+					<h3>$toc-title$</h3>
+					$else$
+					<h3>Table of contents:</h3>
+					$endif$
+				$toc$
+				</div>
+
+				<hr/>
+				$endif$
+				$endif$
+
+			</div>
+			$endif$
+
+			$if(content)$
+			<div id="content">
+			$endif$
+
+				$body$
+
+			$if(content)$
+			</div>
+			$endif$
+
+			$for(include-after)$
+			$include-after$
+			$endfor$
+
+			<div id="footer">
+				<div>
+					<h6>Contributeurs</h6>
+
+					<ul>
+						<li>
+							<a href="//tartines.org">Tartines</a>
+						</li>
+						<li>
+							<a href="//aius.u-strasbg.fr">AIUS</a>
+						</li>
+						<li>
+							<a href="//FIXME">ASCMI</a>
+						</li>
+					</ul>
+				</div>
+
+				<div>
+					<h6>Stuff?</h6>
+
+					<ul>
+						<li>
+							<a>Mentions légales</a>
+						</li>
+						<li>
+							<a>CGU</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</body>
+</html>

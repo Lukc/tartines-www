@@ -43,47 +43,68 @@ La **GBPL** met à disposition du matériel utile pour *donner cours* dans une *
 
 <section class="row">
 
-## Lire & étudier
+## Lire & étudier {#study}
 
 ### Packs des amicales
 
-<span class="fa fa-book fa-3x"/>
+<span class="fa fa-book fa-3x float-icon"/>
 
-**FIXME: amicales + résumé**
+Les documents les plus utiles et les plus complets pour étudier sont sans aucun doute les *packs de travail* faits par les amicales à partir du contenu de la GBPL.
+Ces packs sont des assemblages de documents de la GBPL, sélectionnés pour leur pertinence et leur qualité.
 
-**FIXME: *attendre les amicales* **
+Ils sont disponibles **\<FIXME\> *\<location\>* **
 
 ### Documents indépendants
 
-<span class="fa fa-files-o fa-3x"/> 
+<span class="fa fa-files-o fa-3x float-icon"/> 
 
-**FIXME: lien vers index + explications**
+Certains documents dans la GBPL sont d'*assez bonne qualité* pour être utilisés en tant que tels, sans avoir à être fusionnés ou intégrés dans un ensemble plus grands.
+Ces documents n'ont pas ou peu été édités par les associations étudiantes.
 
-## Générer des documents
+La GBPL stocke une liste de ces documents **\<FIXME\> *\<location\>* **.
+
+## Générer des documents {#export}
 
 **FIXME: rediriger vers une documentation plus complète et séparée**
 
-**FIXME: expliquer le concept de sélection des sources et d’assemblage ?**
+**FIXME: expliquer le concept de sélection des sources et d'assemblage ?**
 
 **FIXME: les intérêts de la réutilisation ?**
 
 </section>
 
-# Comment contribuer ?
+# Comment contribuer ? {#contribute}
 
 La **GBPL** cherche à être un projet *ouvert*, auquel quiconque peut contribuer.
+Il existe de nombreuses façons de contribuer à la GBPL, et toutes n'incluent pas la création de documents.
 
-**FIXME: petites tâches (corrections/…), intro à la contribution open-source**
+Qu'il sagisse d'ajouter des documents, de corriger des fautes de frappe, de mettre à jour les outils logiciels ou même de créer des packs de travail à partir des données de la GBPL, toute forme de contribution sera acceptée à sa juste valeur.
+Une liste de tâches est disponible [sur Github](https://github.com/Lukc/GBPL/issues).
+
+La contribution de *documents* se fait en trois étapes :
+
+  1. Une *cession de droits*, qui sert à s'assurer que la GBPL pourra utiliser les documents fournis d'un point de vue légal.
+  2. Un *envoi des sources*, qui sert à fournir les documents sous une forme techniquement exploitable.
+  3. Un *marquage des documents*, qui sert à les intégrer à la Bibliothèque et à permettre des recherches et des tris parmis ces derniers.
+
+Chaque étape est expliquée plus en détail dans les sections suivantes.
 
 ## 1. Cession de droits
 
-**FIXME: expliquer les droits cédés, la cession non-exclusive, et les raisons pour lesquels ces droits doivent être cédés.**
+Pour pouvoir remplir ses fonctions, les documents de la GBPL doivent pouvoir être réutilisables et modifiables par tous.
+
+Le [libre accès]() au contenu est nécessaire pour permettre la propagation des connaissances et du Savoir auprès de tous et de tout les publics.
+
+Les droits de modifications sont nécessaires pour pouvoir réutiliser, intégrer ou adapter du contenu pour différents types de formations ou pour les besoins d'autres types de structures.
+
+Les *droits cédés* à la GBPL ne sont *pas* cédés de façon *exclusive*.
+Les auteurs continuent à bénéficier de leurs droits et pourraient, par exemple, publier séparément et commercialement leurs documents.
 
 ## 2. Envoi des sources
 
 **FIXME: Github**
 
-## 3. (Option) Découpage des documents {#gbpl-yaml}
+## 3. (Option) Marquage des documents {#gbpl-yaml}
 
 Les documents sans métadonnées ou impossibles à découper resteront dans la *liste d'attente* de la GBPL.
 Pour quitter cette liste, un fichier décrivant le contenu du dépôt doit être ajouté à la racine.
@@ -123,3 +144,8 @@ documents:
 - Découpages
 
 ---
+
+# Foire aux questions {#faq}
+
+**FIXME: en attente de la liste de questions demandée aux partenaires**
+

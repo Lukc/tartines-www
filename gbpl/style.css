@@ -153,3 +153,16 @@ hr {
 	text-align: inherit;
 }
 
+.float-icon {
+	float: left;
+	margin: 0 8px;
+	color: #444;
+}
+
+#content aside {
+	float: none;
+	margin: 16px 20px;
+	width: auto;
+	color: #777;
+}
+
