@@ -1,7 +1,7 @@
 ---
 title: "Mémorandom"
 subtitle: "Mise à jour du contrat de cession de la GBPL"
-date: "29 Mars 2017"
+date: "30 Mars 2017"
 author:
 - Conseil de Tartines
 addressee: "À l'attention des comités de l'AIUS et de l'ASCMI,"
