@@ -81,7 +81,7 @@ ul#menu {
 	background: #4AF;
 }
 
-#content {
+#content, #header {
 	margin: 0;
 	width: auto;
 	max-width: 1024px;
