@@ -65,11 +65,11 @@ La GBPL stocke une liste de ces documents **\<FIXME\> *\<location\>* **.
 
 ## Générer des documents {#export}
 
-**FIXME: rediriger vers une documentation plus complète et séparée**
+Le contenu de la GBPL est structuré de façon à pouvoir être réutilisé pour *créer de nouveaux documents* : supports de cours, polycopiers, etc.
 
-**FIXME: expliquer le concept de sélection des sources et d'assemblage ?**
+Il existe donc des outils permettant d’extraire le contenu de la GBPL et de le réassembler.
 
-**FIXME: les intérêts de la réutilisation ?**
+Le dépôt du projet [sur Github](https://github.com/Lukc/GBPL) contient tant le contenu structuré que les outils qui les traitent et la documentation associée.
 
 </section>
 
@@ -87,65 +87,68 @@ La contribution de *documents* se fait en trois étapes :
   2. Un *envoi des sources*, qui sert à fournir les documents sous une forme techniquement exploitable.
   3. Un *marquage des documents*, qui sert à les intégrer à la Bibliothèque et à permettre des recherches et des tris parmis ces derniers.
 
-Chaque étape est expliquée plus en détail dans les sections suivantes.
-
-## 1. Cession de droits
-
-Pour pouvoir remplir ses fonctions, les documents de la GBPL doivent pouvoir être réutilisables et modifiables par tous.
-
-Le [libre accès]() au contenu est nécessaire pour permettre la propagation des connaissances et du Savoir auprès de tous et de tout les publics.
-
-Les droits de modifications sont nécessaires pour pouvoir réutiliser, intégrer ou adapter du contenu pour différents types de formations ou pour les besoins d'autres types de structures.
-
-Les *droits cédés* à la GBPL ne sont *pas* cédés de façon *exclusive*.
-Les auteurs continuent à bénéficier de leurs droits et pourraient, par exemple, publier séparément et commercialement leurs documents.
-
-## 2. Envoi des sources
-
-**FIXME: Github**
-
-## 3. (Option) Marquage des documents {#gbpl-yaml}
-
-Les documents sans métadonnées ou impossibles à découper resteront dans la *liste d'attente* de la GBPL.
-Pour quitter cette liste, un fichier décrivant le contenu du dépôt doit être ajouté à la racine.
-
-```YAML
-author:
-- "Prénom *Nom*"
-- "Prénom2 Particule *Nom2*"
-- …
-unit: "Unité d'Enseignement" # par exemple, "Génie Logiciel"
-year: 2017
-tags:
-- "project management"
-- "C"
-documents:
-- type: notes
-  source: "cours_01.md"
-  children:
-  - type: exercise
-    source: "ex/01.odt"
-  - type: exercise
-    source: "ex/02.docx"
-	author: "Some Other Name"
-  - type: exercise
-    source: "ex/03.md"
-- type: annales
-  extractor: "grep '#^ ' wip_cc.md"
-```
-
----
-
-**FIXME: contrib guide**
-
-- Cession de droits/contrat/license
-- Métadonnées + Scripts
-- Pull request?
-- Découpages
-
----
+Un [guide de contribution](guide.xhtml) explique toutes ces opérations plus en détail.
 
 # Foire aux questions {#faq}
 
-**FIXME: en attente de la liste de questions demandée aux partenaires**
+### Pourquoi les droits de modification ?
+
+Les amicales veulent pouvoir créer des packs de travail à partir des documents fournis par la GBPL.
+Pour construire des packs de travail de qualité, il sera nécessaire de sélectionner des exercices ou d'autres types de fragments, de les séparer de leurs documents d'origine, et de les réassembler dans le document final.
+
+Des changements de style seront également nécessaires pour fournir un document final d'apparence homogène.
+
+En revanche, les utilisateurs de la GBPL seront forcés à s'engager à respecter le nom des auteurs originaux, et à l'afficher dans tout document produit à partir de la GBPL.
+
+### Pourquoi les droits de redistribution à usage commercial ?
+
+Les amicales veulent pouvoir créer et distribuer des packs de travail à partir des documents fournis par la GBPL.
+Pour pouvoir imprimer et distribuer ces documents, les amicales auront besoin d'être financées ou de pouvoir vendre leurs impressions.
+
+La vente des impressions est un cas d'usage commercial, bien que l'objectif soit de fournir des documents complets, de qualité et à bas coût aux étudiants.
+Les versions en ligne resteront, en revanche, complètement gratuites.
+
+### Je suis enseignant, mes cours seront-ils en ligne ?
+
+Les documents fournis au projet de la GBPL seront en effet hébergés en ligne.
+Ces documents ne seront en revanche hébergés par la GBPL que dans un format « source » (TeX, Markdown, etc.) et une version immédiatement lisible ne sera pas forcément hébergée.
+
+En revanche, les amicales ou d'autres utilisateurs de la GBPL peuvent héberger du contenu de la GBPL dans un format lisible, que ces documents aient été modifiés ou non.
+
+### Je suis enseignant, les étudiants ne risquent-ils pas de dégrader mes cours ?
+
+Il est vrai que les étudiants auront la possibilité de modifier les documents fournis, dont les cours.
+En revanche, le projet de GBPL porte une attention particulière à l'amélioration du contenu qui lui est fourni.
+
+L'approbation d'une personne compétente (qu'il s'agisse de vous ou de l'un de vos collègues enseignants) sera demandé avant d'intégrer des modifications sur un contenu déjà enregistré.
+
+### Je suis étudiant, un tel projet ne risque-t-il pas de nuire à la qualité de mes études ?
+
+Bien au contraire !
+
+Un projet de cours ouverts et pour lesquels il est possible de proposer des correctifs permet d'améliorer lentement la qualité des supports de cours, qui améliorera la qualité des études associées.
+
+### Si un enseignant refuse de céder ses droits, le projet est-il en danger ?
+
+Si un enseignant refuse de céder ses droits, la GBPL disposera de moins de contenu pour couvrir une matière ou une UE particulière.
+En revanche, si un autre enseignant cède ses droits et fournit du contenu sur la même matière ou UE, alors la GBPL a évité le problème.
+
+À défaut, si aucun enseignant n'accepte de fournir du contenu pour un sujet précis, les étudiants restent libres de contribuer en créant et ajoutant les contenus manquants.
+
+### Quand seront disponibles les nouveaux packs de travail ?
+
+Les amicales travaillent à fournir des prototypes utilisables pour l'année universitaire 2017-2018, mais des packs complets ne seront probablement pas disponibles avant les années universitaires 2018-2019 ou 2019-2020.
+
+### J'ai trouvé des erreurs dans un des documents de la GBPL, que faire ?
+
+Si vous êtes un étudiant ou un enseignant et avez trouvé une erreur dans un document de la GBPL, vous êtes encouragés à le signaler !
+
+<aside>
+<code><https://github.com/Lukc/GBPL/issues></code>
+</aside>
+
+La page Github de la GBPL est un endroit idéal dans lequel rapporter l'erreur.
+Il existe un système de « bugs » ou « issues » à rapporter, dans lequel vous pouvez décrire ou signaler le problème que vous avez pu observer.
+
+À défaut, si cela vous semble compliqué, vous pouvez signaler toute erreur aux associations étudiantes engagées dans le projet — l'AIUS ou l'ASCMI.
 

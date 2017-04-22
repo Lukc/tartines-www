@@ -24,21 +24,21 @@ Les associations impliquées sont pour le moment l'*AIUS* et l'*ASCMI*.
 </aside>
 
 L'existence d'une collection de documents *ouverts* et sous *licence Libre* permet aux associations étudiantes de faire des *packs de travail* et *de révision*.
-Ces packs remplaceront les annales photocopiées distribuées actuellement, et incluront de nouveaux types de contenus, tels que des *notes*, des *feuilles de révision*, ou des *illustrations utiles* présentes dans les cours concernés.
+Ces packs remplaceront les annales photocopiées distribuées actuellement, et incluront de nouveaux types de contenus, tels que des *notes*, des *feuilles de révision*, ou des *illustrations utiles* en lien avec les cours concernés.
 
 <aside>
-Les noms des auteurs originaux resteront présents, ainsi que les UE et les années correspondant.
+Les noms des auteurs originaux resteront présents, ainsi que les UE et les années correspondantes.
 </aside>
 
 De tels outils de travail ne peuvent être mis en place qu'à travers la *modification*, la découpe et la fusion des travaux des différents enseignants.
-Ces opérations permettront de fournir des documents homogènes qui présenteront des listes d'exercices continues, et non plus des assemblages grossiers de documents photocopiés.
+Ces opérations permettront de fournir des documents homogènes sous forme de listes continues d'exercices, et non plus de grossiers assemblages de documents photocopiés.
 
-L'utilisation de cette collection comme *source pour la création* de ces outils de travail éliminera également les risques et *contraintes légales* qui se trouvent dans les « packs d'annales » actuels.
+L'utilisation de la GBPL comme *source pour la création* de ces outils de travail éliminera également les risques et *contraintes légales* qui se trouvent dans les « packs d'annales » actuels.
 
 ## Pour les enseignants
 
 <aside>
-Par exemple, des sujets de TP ou de TD de meilleure qualité peuvent être obtenus.
+Par exemple, des exercices déjà rédigés peuvent être obtenus pour des TD.
 
 ---
 
@@ -126,8 +126,6 @@ Les versions en ligne resteront, en revanche, complètement gratuites.
 
 ### Je suis enseignant, mes cours seront-ils en ligne ?
 
-Probablement.
-
 Les documents fournis au projet de la GBPL seront en effet hébergés en ligne.
 Ces documents ne seront en revanche hébergés par la GBPL que dans un format « source » (TeX, Markdown, etc.) et une version immédiatement lisible ne sera pas forcément hébergée.
 
@@ -147,8 +145,6 @@ Bien au contraire !
 Un projet de cours ouverts et pour lesquels il est possible de proposer des correctifs permet d'améliorer lentement la qualité des supports de cours, qui améliorera la qualité des études associées.
 
 ### Si un enseignant refuse de céder ses droits, le projet est-il en danger ?
-
-Absolument pas.
 
 Si un enseignant refuse de céder ses droits, la GBPL disposera de moins de contenu pour couvrir une matière ou une UE particulière.
 En revanche, si un autre enseignant cède ses droits et fournit du contenu sur la même matière ou UE, alors la GBPL a évité le problème.
