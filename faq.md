@@ -36,7 +36,7 @@ This means there is no company or association behind Tartines, just plain, old p
 
 Our activities tend to vary a lot over time.
 
-Some of the events we organised included conferences or the [<i>Great Free Pedagogical Library</i>](//projects.xhtml#GBPL).
+Some of the events we organised included conferences or the [<i>Great Free Pedagogical Library</i>](./projects.xhtml#GBPL).
 
 ## How can I join?
 
