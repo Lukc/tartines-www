@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="style.css" title="Default style"?>
+<?xml-stylesheet href="$root$/style.css" title="Style par défaut"?>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" $if(lang)$ xml:lang="$lang$" $else$ lang="en" $endif$>
+<html xmlns="http://www.w3.org/1999/xhtml" $if(lang)$ xml:lang="$lang$" $else$ lang="fr" $endif$>
 	<head>
 		$if(index)$
 		<title>$pagetitle$</title>
@@ -13,61 +13,41 @@
 	</head>
 	<body>
 		<div id="container">
-
 			$if(menu)$
 			<ul id="menu">
 				<li>
-					<a href="index.xhtml">
-						Index
+					<a href="$root$/index.fr.xhtml">
+						Accueil
 					</a>
 				</li>
 
 				<li>
-					<a href="texts.xhtml">
-						Texts
+					<a href="$root$/projects.fr.xhtml">
+						Projets
 					</a>
 				</li>
 
+				<li></li>
+
+				<li></li>
+
 				<li>
-					<a href="todo.xhtml">
-						Todo
+					<a href="$root$/jabber.fr.xhtml">
+						Chat
 					</a>
 				</li>
 
-				<li>
-					<a href="projects.xhtml">
-						Projects
-					</a>
-				</li>
+				<li></li>
 
 				<li>
-					<a href="jabber.xhtml">
-						Jabber
-					</a>
-				</li>
-
-				<li>
-					<a href="news.xhtml">
-						News
-					</a>
-				</li>
-
-				<li>
-					<a href="faq.xhtml">
+					<a href="$root$/faq.fr.xhtml">
 						FAQ
 					</a>
 				</li>
 
-				<li>
-					<a href="rules.xhtml" style="font-size:220%;">
-						φ
-					</a>
-				</li>
+				<li></li>
 
-				<li>
-					<a href="">
-					</a>
-				</li>
+				<li></li>
 			</ul>
 			$endif$
 
@@ -83,10 +63,18 @@
 				<h1 id="$idprefix$">$title$</h1>
 				$endif$
 
+				$if(date)$
+				<h3 id="date">$date$</h3>
+				$endif$
+
 				$if(toc)$
 				$if(show-toc)$
 				<div id="$idprefix$TOC">
-					<h3>Table of contents:</h3>
+					$if(toc-title)$
+					<h3>$toc-title$</h3>
+					$else$
+					<h3>Table des matières :</h3>
+					$endif$
 				$toc$
 				</div>
 				$endif$
